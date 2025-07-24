@@ -4,30 +4,188 @@
     "href": "index.html",
     "title": "CHDS",
     "section": "",
-    "text": "Welcome!\nWelcome to the Data Hub at the Boston University Center for Health Data Sciences",
+    "text": "1 Welcome to the BU Data Hub\nThe Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.",
     "crumbs": [
-      "Welcome!"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-we-offer",
+    "href": "index.html#what-we-offer",
+    "title": "CHDS",
+    "section": "1.1 🔍 What We Offer",
+    "text": "1.1 🔍 What We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources\nUnderstand data access pathways and ethical considerations\nStrengthen analytic strategy and research design\nFacilitate interdepartmental collaboration\nTriage complex needs to the right people across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-it-works",
+    "href": "index.html#how-it-works",
+    "title": "CHDS",
+    "section": "1.2 💬 How It Works",
+    "text": "1.2 💬 How It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#topics-we-cover",
+    "href": "index.html#topics-we-cover",
+    "title": "CHDS",
+    "section": "1.3 🧠 Topics We Cover",
+    "text": "1.3 🧠 Topics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#strategic-benefits",
+    "href": "index.html#strategic-benefits",
+    "title": "CHDS",
+    "section": "1.4 🧭 Strategic Benefits",
+    "text": "1.4 🧭 Strategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#expansion-plan",
+    "href": "index.html#expansion-plan",
+    "title": "CHDS",
+    "section": "1.5 🗺️ Expansion Plan",
+    "text": "1.5 🗺️ Expansion Plan\nThe Data Hub will launch in three phases:\n\nSPH Pilot: Initial outreach to BU School of Public Health\nBU Medical Campus: Expand to BUSM, CTSI, and partner centers\nCharles River Campus: Connect with Hariri, CDS, and cross-campus research teams",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#evaluation-feedback",
+    "href": "index.html#evaluation-feedback",
+    "title": "CHDS",
+    "section": "1.6 📈 Evaluation & Feedback",
+    "text": "1.6 📈 Evaluation & Feedback\nWe aim to build a responsive and effective service. We’ll evaluate the program by tracking:\n\nConsultation frequency and user demographics\nReferral pathways and resolution timelines\nFeedback on satisfaction and usefulness",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#get-started",
+    "href": "index.html#get-started",
+    "title": "CHDS",
+    "section": "1.7 🧩 Get Started",
+    "text": "1.7 🧩 Get Started\nReady to work smarter with data?\n📧 Email us: chds@bu.edu\n📅 Book a session: Request a consultation\n📌 Learn more: Data source inventory\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to the BU Data Hub</span>"
     ]
   },
   {
     "objectID": "data_sources.html",
     "href": "data_sources.html",
-    "title": "Data sources",
+    "title": "Data Source Inventory",
     "section": "",
-    "text": "Here is a current table of all data sources:",
+    "text": "This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nMarketScan\nClaims data from commercial insurers, Medicare & Medicaid enrollees\nNational; insured populations (2010–2022)\nLicensed via DUA with Truven\nTruven/IBM MarketScan Overview\n\n\nOptum\nDe-identified claims and EHR data from Optum clients\n~100M+ covered lives; national\nLicense required\nOften used in comparative effectiveness and pharmacoepi research\n\n\nCMS Medicare\nMedicare Parts A, B, D claims and enrollment files\nUS adults ≥65 and disabled populations\nResDAC request and DUA\nCMS Data Navigator\n\n\nNHANES\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nACS (American Community Survey)\nOngoing demographic, housing, social, and economic data\nNational, sub-county level (tract/block)\nPublic\nACS Data\n\n\nNSDUH\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nAll of Us\nNational cohort with EHRs, biospecimens, and surveys\nDiverse US cohort, oversampling minorities\nControlled tier via Researcher Hub\nAll of Us Data Browser\n\n\nBRFSS\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nNSAF\nNational Survey of America’s Families (historical)\nCross-sectional (1997–2002)\nPublic (retired, archived)\nUsed in Medicaid and CHIP policy research\n\n\nVital Statistics (NCHS)\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP",
     "crumbs": [
-      "Data sources"
+      "Data Source Inventory"
     ]
   },
   {
     "objectID": "data_Marketscan.html",
     "href": "data_Marketscan.html",
-    "title": "Marketscan",
+    "title": "MarketScan",
     "section": "",
-    "text": "Here’s where we can describe Marketscan",
+    "text": "Data Use Agreement (DUA) and Abstract\nMarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.",
     "crumbs": [
-      "Data sources",
-      "Marketscan"
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#submit-a-project-proposal",
+    "href": "data_Marketscan.html#submit-a-project-proposal",
+    "title": "MarketScan",
+    "section": "📋 Submit a Project Proposal",
+    "text": "📋 Submit a Project Proposal\nYou can submit your proposal using the REDCap form below:",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#current-projects-using-marketscan",
+    "href": "data_Marketscan.html#current-projects-using-marketscan",
+    "title": "MarketScan",
+    "section": "🚧 Current Projects Using MarketScan",
+    "text": "🚧 Current Projects Using MarketScan\n\nEvaluating Telehealth Utilization During COVID-19\nPI: Dr. Jane Doe (SPH)\nOpioid Prescription Patterns and Outcomes in Adolescents\nPI: Dr. Sarah Lin (BUSM)",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#past-projects",
+    "href": "data_Marketscan.html#past-projects",
+    "title": "MarketScan",
+    "section": "📁 Past Projects",
+    "text": "📁 Past Projects\n\nTrends in Antidepressant Use (2013–2019)\nDr. Michael Smith\nFinal Report (PDF)\nCost Burden of Asthma in Medicaid Populations\nDr. Priya Desai\nConference Poster (PDF)",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#related-publications",
+    "href": "data_Marketscan.html#related-publications",
+    "title": "MarketScan",
+    "section": "📄 Related Publications",
+    "text": "📄 Related Publications\n\nSmith et al. (2022). Longitudinal Analysis of Diabetes Management. Journal of Managed Care.\n\nLin et al. (2023). Health Expenditures After Mental Health Diagnosis. Health Affairs.",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#bu-contacts",
+    "href": "data_Marketscan.html#bu-contacts",
+    "title": "MarketScan",
+    "section": "🧑‍🏫 BU Contacts",
+    "text": "🧑‍🏫 BU Contacts\nYou can reach out to the following faculty/staff for guidance on using MarketScan data:\n\nDr. Laura White – Epidemiology, BUSPH – laura.white@bu.edu\n\nChad Milando – Data Scientist, EH Department – cmilando@bu.edu\n\nDr. Jason Block – Primary Care, BUSM – jason.block@bu.edu",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#data-dictionary-metadata-years-available",
+    "href": "data_Marketscan.html#data-dictionary-metadata-years-available",
+    "title": "MarketScan",
+    "section": "📚 Data Dictionary, Metadata, Years Available",
+    "text": "📚 Data Dictionary, Metadata, Years Available\n\nYears Available: 2010–2022\n\nGeography: National; some ZIP-level data (restricted)\n\nPopulation: Commercial insurance, Medicare Supplemental, Medicaid\n\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload Metadata (CSV)",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#sample-source-and-documentation",
+    "href": "data_Marketscan.html#sample-source-and-documentation",
+    "title": "MarketScan",
+    "section": "📌 Sample Source and Documentation",
+    "text": "📌 Sample Source and Documentation\nFor sample derivation and weighting methodology, see the official user guide:\n📎 MarketScan User Guide (PDF)",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html#code-snippets-to-get-started",
+    "href": "data_Marketscan.html#code-snippets-to-get-started",
+    "title": "MarketScan",
+    "section": "💻 Code Snippets to Get Started",
+    "text": "💻 Code Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")",
+    "crumbs": [
+      "Data Source Inventory",
+      "MarketScan"
     ]
   },
   {

@@ -1,5 +1,24 @@
-# Data sources { .unnumbered}
+# Data Source Inventory
 
-Here is a current table of all data sources:
+This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.
+
+| Data Source     | Description                                                                 | Population/Coverage                          | Access & Restrictions              | Notes/Links                                                                 |
+|-----------------|-----------------------------------------------------------------------------|----------------------------------------------|-----------------------------------|------------------------------------------------------------------------------|
+| [**MarketScan**](data_Marketscan.qmd)  | Claims data from commercial insurers, Medicare & Medicaid enrollees        | National; insured populations (2010–2022)    | Licensed via DUA with Truven      | [Truven/IBM MarketScan Overview](https://www.ibm.com/products/marketscan-research-databases) |
+| **Optum**       | De-identified claims and EHR data from Optum clients                        | ~100M+ covered lives; national                | License required                   | Often used in comparative effectiveness and pharmacoepi research             |
+| **CMS Medicare**| Medicare Parts A, B, D claims and enrollment files                         | US adults ≥65 and disabled populations        | ResDAC request and DUA            | [CMS Data Navigator](https://dnav.cms.gov/)                                  |
+| **NHANES**      | National Health and Nutrition Examination Survey                            | National, representative sample               | Public + restricted access tiers  | [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm)                          |
+| **ACS (American Community Survey)** | Ongoing demographic, housing, social, and economic data        | National, sub-county level (tract/block)     | Public                             | [ACS Data](https://www.census.gov/programs-surveys/acs/)                    |
+| **NSDUH**       | National Survey on Drug Use and Health                                      | US residents aged ≥12                         | Public microdata via SAMHDA       | [NSDUH](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health) |
+| **HRS**         | Health and Retirement Study                                                 | US adults ≥50, longitudinal panel             | Public + restricted files         | [HRS](https://hrs.isr.umich.edu/data-products)                              |
+| **All of Us**   | National cohort with EHRs, biospecimens, and surveys                        | Diverse US cohort, oversampling minorities    | Controlled tier via Researcher Hub| [All of Us Data Browser](https://databrowser.researchallofus.org)            |
+| **BRFSS**       | Behavioral Risk Factor Surveillance System                                  | National; state-level behavioral data         | Public                             | [BRFSS](https://www.cdc.gov/brfss/)                                         |
+| **MEPS**        | Medical Expenditure Panel Survey                                            | US households and medical providers           | Public                             | [MEPS](https://meps.ahrq.gov/mepsweb/)                                      |
+| **NSAF**        | National Survey of America's Families (historical)                          | Cross-sectional (1997–2002)                   | Public (retired, archived)         | Used in Medicaid and CHIP policy research                                   |
+| **Vital Statistics (NCHS)** | Birth, death, fetal death, marriage, and divorce data               | National and state-level                      | Public (some restricted use)       | [CDC Vital Stats](https://www.cdc.gov/nchs/nvss/)                            |
+| **SEER-Medicare**| Linked cancer registry and Medicare claims data                           | Cancer patients ≥65                           | Application through NCI/ResDAC     | [SEER-Medicare](https://healthcaredelivery.cancer.gov/seermedicare/)        |
+| **HCUP**        | Healthcare Cost and Utilization Project                                     | Inpatient, ED, ambulatory visits              | State-specific, requires purchase | [HCUP](https://www.hcup-us.ahrq.gov/)                                        |
+
+
   
 

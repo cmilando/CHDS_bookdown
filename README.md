@@ -4,7 +4,13 @@ A bookdown for data at the CHDS
 
 # Quarto rendering refresher
 
-1) make a change
+see the overall file structure in `_quarto.yml`
+
+the home page is index.qmd
+
+# making a change and pushing
+
+1) make a change and save your file
 
 2) do
 ```
@@ -14,3 +20,4 @@ quarto render
 
 3) commit and push
 
+see here for more details: https://quarto.org/docs/publishing/github-pages.html

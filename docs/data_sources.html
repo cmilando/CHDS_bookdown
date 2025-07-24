@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data sources – CHDS</title>
+<title>Data Source Inventory – CHDS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,7 +90,7 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data sources</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data Source Inventory</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -121,13 +121,13 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome!</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome to the BU Data Hub</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./data_sources.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data sources</span></a>
+ <span class="menu-text">Data Source Inventory</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -136,7 +136,7 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data_Marketscan.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Marketscan</span></a>
+ <span class="menu-text">MarketScan</span></a>
   </div>
 </li>
       </ul>
@@ -160,7 +160,7 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data sources</h1>
+<h1 class="title">Data Source Inventory</h1>
 </div>
 
 
@@ -177,7 +177,118 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
 </header>
 
 
-<p>Here is a current table of all data sources:</p>
+<p>This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Data Source</th>
+<th>Description</th>
+<th>Population/Coverage</th>
+<th>Access &amp; Restrictions</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="./data_Marketscan.html"><strong>MarketScan</strong></a></td>
+<td>Claims data from commercial insurers, Medicare &amp; Medicaid enrollees</td>
+<td>National; insured populations (2010–2022)</td>
+<td>Licensed via DUA with Truven</td>
+<td><a href="https://www.ibm.com/products/marketscan-research-databases">Truven/IBM MarketScan Overview</a></td>
+</tr>
+<tr class="even">
+<td><strong>Optum</strong></td>
+<td>De-identified claims and EHR data from Optum clients</td>
+<td>~100M+ covered lives; national</td>
+<td>License required</td>
+<td>Often used in comparative effectiveness and pharmacoepi research</td>
+</tr>
+<tr class="odd">
+<td><strong>CMS Medicare</strong></td>
+<td>Medicare Parts A, B, D claims and enrollment files</td>
+<td>US adults ≥65 and disabled populations</td>
+<td>ResDAC request and DUA</td>
+<td><a href="https://dnav.cms.gov/">CMS Data Navigator</a></td>
+</tr>
+<tr class="even">
+<td><strong>NHANES</strong></td>
+<td>National Health and Nutrition Examination Survey</td>
+<td>National, representative sample</td>
+<td>Public + restricted access tiers</td>
+<td><a href="https://www.cdc.gov/nchs/nhanes/index.htm">NHANES</a></td>
+</tr>
+<tr class="odd">
+<td><strong>ACS (American Community Survey)</strong></td>
+<td>Ongoing demographic, housing, social, and economic data</td>
+<td>National, sub-county level (tract/block)</td>
+<td>Public</td>
+<td><a href="https://www.census.gov/programs-surveys/acs/">ACS Data</a></td>
+</tr>
+<tr class="even">
+<td><strong>NSDUH</strong></td>
+<td>National Survey on Drug Use and Health</td>
+<td>US residents aged ≥12</td>
+<td>Public microdata via SAMHDA</td>
+<td><a href="https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health">NSDUH</a></td>
+</tr>
+<tr class="odd">
+<td><strong>HRS</strong></td>
+<td>Health and Retirement Study</td>
+<td>US adults ≥50, longitudinal panel</td>
+<td>Public + restricted files</td>
+<td><a href="https://hrs.isr.umich.edu/data-products">HRS</a></td>
+</tr>
+<tr class="even">
+<td><strong>All of Us</strong></td>
+<td>National cohort with EHRs, biospecimens, and surveys</td>
+<td>Diverse US cohort, oversampling minorities</td>
+<td>Controlled tier via Researcher Hub</td>
+<td><a href="https://databrowser.researchallofus.org">All of Us Data Browser</a></td>
+</tr>
+<tr class="odd">
+<td><strong>BRFSS</strong></td>
+<td>Behavioral Risk Factor Surveillance System</td>
+<td>National; state-level behavioral data</td>
+<td>Public</td>
+<td><a href="https://www.cdc.gov/brfss/">BRFSS</a></td>
+</tr>
+<tr class="even">
+<td><strong>MEPS</strong></td>
+<td>Medical Expenditure Panel Survey</td>
+<td>US households and medical providers</td>
+<td>Public</td>
+<td><a href="https://meps.ahrq.gov/mepsweb/">MEPS</a></td>
+</tr>
+<tr class="odd">
+<td><strong>NSAF</strong></td>
+<td>National Survey of America’s Families (historical)</td>
+<td>Cross-sectional (1997–2002)</td>
+<td>Public (retired, archived)</td>
+<td>Used in Medicaid and CHIP policy research</td>
+</tr>
+<tr class="even">
+<td><strong>Vital Statistics (NCHS)</strong></td>
+<td>Birth, death, fetal death, marriage, and divorce data</td>
+<td>National and state-level</td>
+<td>Public (some restricted use)</td>
+<td><a href="https://www.cdc.gov/nchs/nvss/">CDC Vital Stats</a></td>
+</tr>
+<tr class="odd">
+<td><strong>SEER-Medicare</strong></td>
+<td>Linked cancer registry and Medicare claims data</td>
+<td>Cancer patients ≥65</td>
+<td>Application through NCI/ResDAC</td>
+<td><a href="https://healthcaredelivery.cancer.gov/seermedicare/">SEER-Medicare</a></td>
+</tr>
+<tr class="even">
+<td><strong>HCUP</strong></td>
+<td>Healthcare Cost and Utilization Project</td>
+<td>Inpatient, ED, ambulatory visits</td>
+<td>State-specific, requires purchase</td>
+<td><a href="https://www.hcup-us.ahrq.gov/">HCUP</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -601,13 +712,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome!">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome!</span>
+      <a href="./index.html" class="pagination-link" aria-label="Welcome to the BU Data Hub">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome to the BU Data Hub</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./data_Marketscan.html" class="pagination-link" aria-label="Marketscan">
-        <span class="nav-page-text">Marketscan</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./data_Marketscan.html" class="pagination-link" aria-label="MarketScan">
+        <span class="nav-page-text">MarketScan</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

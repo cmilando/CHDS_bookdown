@@ -1,3 +1,99 @@
-# Marketscan { .unnumbered}
+# MarketScan { .unnumbered}
 
-Here's where we can describe Marketscan
+::: {.callout-warning}
+THIS IS ALL MADE UP BY CHAT-GPT, JUST A PLACEHOLDER FOR NOW
+:::
+
+MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.
+
+---
+
+### Data Use Agreement (DUA) and Abstract
+
+Access to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.
+
+_**Sample abstract for DUA request**_:
+> This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.
+
+---
+
+## 📋 Submit a Project Proposal
+
+You can submit your proposal using the REDCap form below:
+
+<iframe src="https://redcap.bu.edu/surveys/?s=EXAMPLEFORMCODE" width="100%" height="600px" frameborder="0">
+</iframe>
+
+---
+
+## 🚧 Current Projects Using MarketScan
+
+- **Evaluating Telehealth Utilization During COVID-19**  
+  PI: Dr. Jane Doe (SPH)
+
+- **Opioid Prescription Patterns and Outcomes in Adolescents**  
+  PI: Dr. Sarah Lin (BUSM)
+
+---
+
+## 📁 Past Projects
+
+- **Trends in Antidepressant Use (2013–2019)**  
+  Dr. Michael Smith  
+  [Final Report (PDF)](link-to-report)
+
+- **Cost Burden of Asthma in Medicaid Populations**  
+  Dr. Priya Desai  
+  [Conference Poster (PDF)](link-to-poster)
+
+---
+
+## 📄 Related Publications
+
+- Smith et al. (2022). *Longitudinal Analysis of Diabetes Management*. Journal of Managed Care.  
+- Lin et al. (2023). *Health Expenditures After Mental Health Diagnosis*. Health Affairs.
+
+---
+
+## 🧑‍🏫 BU Contacts
+
+You can reach out to the following faculty/staff for guidance on using MarketScan data:
+
+- **Dr. Laura White** – Epidemiology, BUSPH – [laura.white@bu.edu](mailto:laura.white@bu.edu)  
+- **Chad Milando** – Data Scientist, EH Department – [cmilando@bu.edu](mailto:cmilando@bu.edu)  
+- **Dr. Jason Block** – Primary Care, BUSM – [jason.block@bu.edu](mailto:jason.block@bu.edu)  
+
+---
+
+## 📚 Data Dictionary, Metadata, Years Available
+
+- **Years Available**: 2010–2022  
+- **Geography**: National; some ZIP-level data (restricted)  
+- **Population**: Commercial insurance, Medicare Supplemental, Medicaid  
+- **Documentation**:
+  - [Download Data Dictionary (PDF)](link-to-dictionary)
+  - [Download Metadata (CSV)](link-to-metadata)
+
+---
+
+## 📌 Sample Source and Documentation
+
+For sample derivation and weighting methodology, see the official user guide:  
+📎 [MarketScan User Guide (PDF)](link-to-user-guide.pdf)
+
+---
+
+## 💻 Code Snippets to Get Started
+
+```r
+# Load claims data
+claims <- fread("marketscan_claims_2021.csv")
+
+# Summary by diagnosis
+claims[, .N, by = .(diagnosis_code)][order(-N)]
+
+# Join with enrollment data
+merged <- merge(claims, enrollment, by = "patient_id")
+```
+
+ 

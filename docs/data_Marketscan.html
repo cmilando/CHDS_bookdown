@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Marketscan – CHDS</title>
+<title>MarketScan – CHDS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -90,7 +124,7 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data sources</a></li><li class="breadcrumb-item"><a href="./data_Marketscan.html">Marketscan</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data Source Inventory</a></li><li class="breadcrumb-item"><a href="./data_Marketscan.html">MarketScan</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -121,13 +155,13 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome!</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome to the BU Data Hub</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./data_sources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data sources</span></a>
+ <span class="menu-text">Data Source Inventory</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -136,7 +170,7 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data_Marketscan.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Marketscan</span></a>
+ <span class="menu-text">MarketScan</span></a>
   </div>
 </li>
       </ul>
@@ -152,15 +186,29 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#data-use-agreement-dua-and-abstract" id="toc-data-use-agreement-dua-and-abstract" class="nav-link active" data-scroll-target="#data-use-agreement-dua-and-abstract">Data Use Agreement (DUA) and Abstract</a></li>
+  <li><a href="#submit-a-project-proposal" id="toc-submit-a-project-proposal" class="nav-link" data-scroll-target="#submit-a-project-proposal">📋 Submit a Project Proposal</a></li>
+  <li><a href="#current-projects-using-marketscan" id="toc-current-projects-using-marketscan" class="nav-link" data-scroll-target="#current-projects-using-marketscan">🚧 Current Projects Using MarketScan</a></li>
+  <li><a href="#past-projects" id="toc-past-projects" class="nav-link" data-scroll-target="#past-projects">📁 Past Projects</a></li>
+  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">📄 Related Publications</a></li>
+  <li><a href="#bu-contacts" id="toc-bu-contacts" class="nav-link" data-scroll-target="#bu-contacts">🧑‍🏫 BU Contacts</a></li>
+  <li><a href="#data-dictionary-metadata-years-available" id="toc-data-dictionary-metadata-years-available" class="nav-link" data-scroll-target="#data-dictionary-metadata-years-available">📚 Data Dictionary, Metadata, Years Available</a></li>
+  <li><a href="#sample-source-and-documentation" id="toc-sample-source-and-documentation" class="nav-link" data-scroll-target="#sample-source-and-documentation">📌 Sample Source and Documentation</a></li>
+  <li><a href="#code-snippets-to-get-started" id="toc-code-snippets-to-get-started" class="nav-link" data-scroll-target="#code-snippets-to-get-started">💻 Code Snippets to Get Started</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data sources</a></li><li class="breadcrumb-item"><a href="./data_Marketscan.html">Marketscan</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_sources.html">Data Source Inventory</a></li><li class="breadcrumb-item"><a href="./data_Marketscan.html">MarketScan</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Marketscan</h1>
+<h1 class="title">MarketScan</h1>
 </div>
 
 
@@ -177,9 +225,113 @@ gtag('config', 'REPLACETHIS', { 'anonymize_ip': true});
 </header>
 
 
-<p>Here’s where we can describe Marketscan</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>THIS IS ALL MADE UP BY CHAT-GPT, JUST A PLACEHOLDER FOR NOW</p>
+</div>
+</div>
+<p>MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.</p>
+<hr>
+<section id="data-use-agreement-dua-and-abstract" class="level3">
+<h3 class="anchored" data-anchor-id="data-use-agreement-dua-and-abstract">Data Use Agreement (DUA) and Abstract</h3>
+<p>Access to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.</p>
+<p><em><strong>Sample abstract for DUA request</strong></em>: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.</p>
+<hr>
+</section>
+<section id="submit-a-project-proposal" class="level2">
+<h2 class="anchored" data-anchor-id="submit-a-project-proposal">📋 Submit a Project Proposal</h2>
+<p>You can submit your proposal using the REDCap form below:</p>
+<iframe src="https://redcap.bu.edu/surveys/?s=EXAMPLEFORMCODE" width="100%" height="600px" frameborder="0">
+</iframe>
+<hr>
+</section>
+<section id="current-projects-using-marketscan" class="level2">
+<h2 class="anchored" data-anchor-id="current-projects-using-marketscan">🚧 Current Projects Using MarketScan</h2>
+<ul>
+<li><p><strong>Evaluating Telehealth Utilization During COVID-19</strong><br>
+PI: Dr.&nbsp;Jane Doe (SPH)</p></li>
+<li><p><strong>Opioid Prescription Patterns and Outcomes in Adolescents</strong><br>
+PI: Dr.&nbsp;Sarah Lin (BUSM)</p></li>
+</ul>
+<hr>
+</section>
+<section id="past-projects" class="level2">
+<h2 class="anchored" data-anchor-id="past-projects">📁 Past Projects</h2>
+<ul>
+<li><p><strong>Trends in Antidepressant Use (2013–2019)</strong><br>
+Dr.&nbsp;Michael Smith<br>
+<a href="link-to-report">Final Report (PDF)</a></p></li>
+<li><p><strong>Cost Burden of Asthma in Medicaid Populations</strong><br>
+Dr.&nbsp;Priya Desai<br>
+<a href="link-to-poster">Conference Poster (PDF)</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="related-publications" class="level2">
+<h2 class="anchored" data-anchor-id="related-publications">📄 Related Publications</h2>
+<ul>
+<li>Smith et al.&nbsp;(2022). <em>Longitudinal Analysis of Diabetes Management</em>. Journal of Managed Care.<br>
+</li>
+<li>Lin et al.&nbsp;(2023). <em>Health Expenditures After Mental Health Diagnosis</em>. Health Affairs.</li>
+</ul>
+<hr>
+</section>
+<section id="bu-contacts" class="level2">
+<h2 class="anchored" data-anchor-id="bu-contacts">🧑‍🏫 BU Contacts</h2>
+<p>You can reach out to the following faculty/staff for guidance on using MarketScan data:</p>
+<ul>
+<li><strong>Dr.&nbsp;Laura White</strong> – Epidemiology, BUSPH – <a href="mailto:laura.white@bu.edu">laura.white@bu.edu</a><br>
+</li>
+<li><strong>Chad Milando</strong> – Data Scientist, EH Department – <a href="mailto:cmilando@bu.edu">cmilando@bu.edu</a><br>
+</li>
+<li><strong>Dr.&nbsp;Jason Block</strong> – Primary Care, BUSM – <a href="mailto:jason.block@bu.edu">jason.block@bu.edu</a></li>
+</ul>
+<hr>
+</section>
+<section id="data-dictionary-metadata-years-available" class="level2">
+<h2 class="anchored" data-anchor-id="data-dictionary-metadata-years-available">📚 Data Dictionary, Metadata, Years Available</h2>
+<ul>
+<li><strong>Years Available</strong>: 2010–2022<br>
+</li>
+<li><strong>Geography</strong>: National; some ZIP-level data (restricted)<br>
+</li>
+<li><strong>Population</strong>: Commercial insurance, Medicare Supplemental, Medicaid<br>
+</li>
+<li><strong>Documentation</strong>:
+<ul>
+<li><a href="link-to-dictionary">Download Data Dictionary (PDF)</a></li>
+<li><a href="link-to-metadata">Download Metadata (CSV)</a></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="sample-source-and-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="sample-source-and-documentation">📌 Sample Source and Documentation</h2>
+<p>For sample derivation and weighting methodology, see the official user guide:<br>
+📎 <a href="link-to-user-guide.pdf">MarketScan User Guide (PDF)</a></p>
+<hr>
+</section>
+<section id="code-snippets-to-get-started" class="level2">
+<h2 class="anchored" data-anchor-id="code-snippets-to-get-started">💻 Code Snippets to Get Started</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load claims data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>claims <span class="ot">&lt;-</span> <span class="fu">fread</span>(<span class="st">"marketscan_claims_2021.csv"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary by diagnosis</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>claims[, .N, by <span class="ot">=</span> .(diagnosis_code)][<span class="fu">order</span>(<span class="sc">-</span>N)]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Join with enrollment data</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>merged <span class="ot">&lt;-</span> <span class="fu">merge</span>(claims, enrollment, <span class="at">by =</span> <span class="st">"patient_id"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -601,8 +753,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./data_sources.html" class="pagination-link" aria-label="Data sources">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data sources</span>
+      <a href="./data_sources.html" class="pagination-link" aria-label="Data Source Inventory">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Source Inventory</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
