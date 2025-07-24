@@ -23,8 +23,7 @@ csl: nature.csl
 format:
   html:
     theme:
+      - cosmo
       - markdown-style.scss
-
-
-
-
+  pdf:
+    documentclass: scrreprt
