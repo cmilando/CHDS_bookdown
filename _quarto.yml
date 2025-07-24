@@ -5,8 +5,10 @@ project:
 book:
   google-analytics: REPLACETHIS
   title: "CHDS"
-  page-footer: CHDS Data Hub
+  repo-url: https://chadmilando.com/CHDS_bookdown/
+  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://chadmilando.com/CHDS_bookdown/){target="_blank"}
   repo-branch: main
+  site-url: https://chadmilando.com/CHDS_bookdown/
   sidebar:
     collapse-level: 1
   chapters:
