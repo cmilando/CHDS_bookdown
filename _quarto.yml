@@ -28,8 +28,7 @@ format:
       - markdown-style.scss
   pdf:
     documentclass: scrreprt
-  epub:
-    cover-image: cover.png
+
 
 
 
