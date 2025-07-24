@@ -1,0 +1,3 @@
+## Welcome! {.unnumbered}
+
+Welcome to the Data Hub at the Boston University Center for Health Data Sciences

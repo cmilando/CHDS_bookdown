@@ -1,0 +1,43 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CHDS",
+    "section": "",
+    "text": "Welcome!\nWelcome to the Data Hub at the Boston University Center for Health Data Sciences",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "data_sources.html",
+    "href": "data_sources.html",
+    "title": "Data sources",
+    "section": "",
+    "text": "Here is a current table of all data sources:",
+    "crumbs": [
+      "Data sources"
+    ]
+  },
+  {
+    "objectID": "data_Marketscan.html",
+    "href": "data_Marketscan.html",
+    "title": "Marketscan",
+    "section": "",
+    "text": "Here’s where we can describe Marketscan",
+    "crumbs": [
+      "Data sources",
+      "Marketscan"
+    ]
+  },
+  {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Staff",
+    "section": "",
+    "text": "If we want to talk about CHDS staff, could do it here",
+    "crumbs": [
+      "Staff"
+    ]
+  }
+]

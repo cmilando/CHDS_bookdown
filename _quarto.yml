@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  google-analytics: REPLACETHIS
+  title: "CHDS"
+  repo-url: https://sites.bu.edu/CHDS-data-hub/
+  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://sites.bu.edu/disease-rt/){target="_blank"}
+  repo-branch: main
+  site-url: https://sites.bu.edu/CHDS-data-hub/
+  sidebar:
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - part: data_sources.qmd
+      chapters:
+      - data_Marketscan.qmd
+    - staff.qmd
+
+bibliography: references.bib
+csl: nature.csl
+
+format:
+  html:
+    theme:
+      - cosmo
+      - markdown-style.scss
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png
+
+
+
