@@ -1,4 +1,4 @@
-# Welcome to the BU Data Hub
+# Welcome { .unnumbered}
 
 The **Data Hub** is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of **data science, machine learning, and AI**. Whether you're just getting started or exploring advanced analytic strategies, the Data Hub is your **first stop for expert advice**.
 
