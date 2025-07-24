@@ -5,10 +5,8 @@ project:
 book:
   google-analytics: REPLACETHIS
   title: "CHDS"
-  repo-url: https://sites.bu.edu/CHDS-data-hub/
-  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://sites.bu.edu/disease-rt/){target="_blank"}
+  page-footer: CHDS Data Hub
   repo-branch: main
-  site-url: https://sites.bu.edu/CHDS-data-hub/
   sidebar:
     collapse-level: 1
   chapters:
