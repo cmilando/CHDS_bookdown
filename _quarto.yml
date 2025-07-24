@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: |
-    ![](SPH_Ctr_HealthDataScience_WEB.png){width=5in}
+  title: Data Hub
   repo-url: https://www.chadmilando.com/CHDS_bookdown/
   page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://www.chadmilando.com/CHDS_bookdown/){target="_blank"}
   repo-branch: main
