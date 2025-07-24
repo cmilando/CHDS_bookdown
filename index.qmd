@@ -76,7 +76,7 @@ Ready to work smarter with data?
 
 📧 Email us: [chds@bu.edu](mailto:chds@bu.edu)  
 📅 Book a session: [Request a consultation](#)  
-📌 Learn more: [Data source inventory](data-inventory.qmd)
+📌 Learn more: [Data source inventory](data_sources.qmd)
 
 ---
 
