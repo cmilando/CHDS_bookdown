@@ -21,3 +21,5 @@ quarto render
 3) commit and push
 
 see here for more details: https://quarto.org/docs/publishing/github-pages.html
+
+
