@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 book:
-  google-analytics: REPLACETHIS
   title: "CHDS"
   repo-url: https://www.chadmilando.com/CHDS_bookdown/
   page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://www.chadmilando.com/CHDS_bookdown/){target="_blank"}
@@ -24,10 +23,7 @@ csl: nature.csl
 format:
   html:
     theme:
-      - cosmo
       - markdown-style.scss
-  pdf:
-    documentclass: scrreprt
 
 
 
