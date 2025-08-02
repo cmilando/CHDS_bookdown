@@ -30,7 +30,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
   <div class="card h-100">
     <img src="Chad-Milando.jpg" class="card-img-top" alt="Dr. Chad Milando">
     <div class="card-body">
-      <h5 class="card-title">Chad Milando</h5>
+      <h5 class="card-title">Dr. Chad Milando</h5>
       <h6 class="card-subtitle mb-2 text-muted">Assistant Director, Data Hub</h6>
       <p class="card-text">Chad supports faculty with data sourcing and analytic strategy. His research focuses on environmental health and spatiotemporal modeling.</p>
     </div>
