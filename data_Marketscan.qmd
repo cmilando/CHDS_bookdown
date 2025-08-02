@@ -8,6 +8,17 @@ MarketScan is a proprietary claims dataset that provides longitudinal patient-le
 
 ---
 
+## 📚 Data Dictionary, Metadata, Years Available
+
+- **Years Available**:  
+- **Geography**: 
+- **Population**: 
+- **Documentation**:
+  - [Download Data Dictionary (PDF)](pdfs/Marketscan/Data_Dictionary.pdf)
+  - [Download User Guide (PDF)](pdfs/Marketscan/User_Guide.pdf)
+
+---
+
 ### Data Use Agreement (DUA) and Abstract
 
 Access to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.
@@ -17,7 +28,7 @@ _**Sample abstract for DUA request**_:
 
 ---
 
-## 📋 Submit a Project Proposal
+## Submit a Project Proposal
 
 You can submit your proposal using the REDCap form below:
 
@@ -26,64 +37,30 @@ You can submit your proposal using the REDCap form below:
 
 ---
 
-## 🚧 Current Projects Using MarketScan
+## Current Projects Using MarketScan
 
-- **Evaluating Telehealth Utilization During COVID-19**  
-  PI: Dr. Jane Doe (SPH)
+- **Project 1**  
+  Author  
 
-- **Opioid Prescription Patterns and Outcomes in Adolescents**  
-  PI: Dr. Sarah Lin (BUSM)
 
 ---
 
-## 📁 Past Projects
+## Past Projects
 
-- **Trends in Antidepressant Use (2013–2019)**  
-  Dr. Michael Smith  
+- **Project 1**  
+  Author  
   [Final Report (PDF)](link-to-report)
 
-- **Cost Burden of Asthma in Medicaid Populations**  
-  Dr. Priya Desai  
-  [Conference Poster (PDF)](link-to-poster)
+---
+
+## Related Publications
+
+- 
 
 ---
 
-## 📄 Related Publications
 
-- Smith et al. (2022). *Longitudinal Analysis of Diabetes Management*. Journal of Managed Care.  
-- Lin et al. (2023). *Health Expenditures After Mental Health Diagnosis*. Health Affairs.
-
----
-
-## 🧑‍🏫 BU Contacts
-
-You can reach out to the following faculty/staff for guidance on using MarketScan data:
-
-- **Dr. Laura White** – Epidemiology, BUSPH – [laura.white@bu.edu](mailto:laura.white@bu.edu)  
-- **Chad Milando** – Data Scientist, EH Department – [cmilando@bu.edu](mailto:cmilando@bu.edu)  
-- **Dr. Jason Block** – Primary Care, BUSM – [jason.block@bu.edu](mailto:jason.block@bu.edu)  
-
----
-
-## 📚 Data Dictionary, Metadata, Years Available
-
-- **Years Available**: 2010–2022  
-- **Geography**: National; some ZIP-level data (restricted)  
-- **Population**: Commercial insurance, Medicare Supplemental, Medicaid  
-- **Documentation**:
-  - [Download Data Dictionary (PDF)](link-to-dictionary)
-  - [Download Metadata (CSV)](link-to-metadata)
-
----
-
-## 📌 Sample Source and Documentation
-
-For sample derivation and weighting methodology, see the official user guide:  
-📎 [MarketScan User Guide (PDF)](link-to-user-guide.pdf)
-
----
-
-## 💻 Code Snippets to Get Started
+## Code Snippets to Get Started
 
 ```r
 # Load claims data
