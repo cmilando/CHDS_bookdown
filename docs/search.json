@@ -4,47 +4,7 @@
     "href": "index.html",
     "title": "Data Hub",
     "section": "",
-    "text": "Welcome\nThe Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#what-we-offer",
-    "href": "index.html#what-we-offer",
-    "title": "Data Hub",
-    "section": "🔍 What We Offer",
-    "text": "🔍 What We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources\nUnderstand data access pathways and ethical considerations\nStrengthen analytic strategy and research design\nFacilitate interdepartmental collaboration\nTriage complex needs to the right people across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#how-it-works",
-    "href": "index.html#how-it-works",
-    "title": "Data Hub",
-    "section": "How It Works",
-    "text": "How It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#topics-we-cover",
-    "href": "index.html#topics-we-cover",
-    "title": "Data Hub",
-    "section": "Topics We Cover",
-    "text": "Topics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\nLearn more: Data source inventory",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#strategic-benefits",
-    "href": "index.html#strategic-benefits",
-    "title": "Data Hub",
-    "section": "Strategic Benefits",
-    "text": "Strategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
+    "text": "Welcome\nThe Center for Health Data Sciences Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.\n\n\nWhat We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources\nUnderstand data access pathways and ethical considerations\nStrengthen analytic strategy and research design\nFacilitate interdepartmental collaboration\nTriage complex needs to the right people across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.\n\n\nHow It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.\n\n\nTopics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\nLearn more: Data source inventory\n\n\nStrategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
     "crumbs": [
       "Welcome"
     ]

@@ -2,16 +2,19 @@ color:
   palette:
     dark-grey: "#222222"
     blue: "#ddeaf1"
+    bu-red: "#cc0000"         # BU official red
   background: white
-  foreground: dark-grey
-  primary: black
+  foreground: "#222222"
+  primary: "#cc0000"          # Use BU red as primary brand accent
 
 logo:
-  medium: logo.png
+  medium: logo.png            # You can keep or update the logo to BU SPH one
 
 typography:
   fonts:
+    - family: Lato            # BU uses Lato — we'll add it alongside Roboto
+      source: google
     - family: Roboto
       source: google
-  base: Roboto
-  headings: Roboto
+  base: Lato                  # Use Lato to match BU SPH's site typography
+  headings: Lato
