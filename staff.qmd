@@ -8,7 +8,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
 
 :::: {.columns}
 
-::: {.column width="45%"}
+::: {.column width="30%"}
 ```{=html}
 <div class="col-md-4 mb-4">
   <div class="card h-100">
@@ -22,9 +22,9 @@ Our staff bring expertise across data science, public health, EHR systems, and a
 </div>
 ```
 :::
-::: {.column width="10%"}
+::: {.column width="5%"}
 :::
-::: {.column width="45%"}
+::: {.column width="30%"}
 ```{=html}
 <div class="col-md-4 mb-4">
   <div class="card h-100">
