@@ -1,4 +1,42 @@
-# Staff { .unnumbered}
+---
+title: "Staff"
+title-block-banner: banner2.png
+layout: "columns"
+---
 
-If we want to talk about CHDS staff, could do it here
+Our staff bring expertise across data science, public health, EHR systems, and advanced analytics. Email us at [chds@bu.edu](mailto:chds@bu.edu) to get started!
+
+:::: {.columns}
+
+::: {.column width="45%"}
+```{=html}
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="Nina-Cesare.jpg" class="card-img-top" alt="Dr. Nina Cesare">
+    <div class="card-body">
+      <h5 class="card-title">Dr. Nina Cesare</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Assisant Director, Data Hub</h6>
+      <p class="card-text">Nina's work bridges data science and sociology, using digital and spatial data to explore social determinants of health and the methodological challenges of modern social research</p>
+    </div>
+  </div>
+</div>
+```
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="45%"}
+```{=html}
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="Chad-Milando.jpg" class="card-img-top" alt="Dr. Chad Milando">
+    <div class="card-body">
+      <h5 class="card-title">Chad Milando</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Assistant Director, Data Hub</h6>
+      <p class="card-text">Chad supports faculty with data sourcing and analytic strategy. His research focuses on environmental health and spatiotemporal modeling.</p>
+    </div>
+  </div>
+</div>
+```
+:::
+::::
 
