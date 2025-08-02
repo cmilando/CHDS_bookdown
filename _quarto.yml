@@ -1,30 +1,33 @@
 project:
-  type: book
+  type: website
   output-dir: docs
 
-book:
+website:
   title: Data Hub
+  site-url: https://www.chadmilando.com/CHDS_bookdown/
   repo-url: https://www.chadmilando.com/CHDS_bookdown/
-  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://www.chadmilando.com/CHDS_bookdown/){target="_blank"}
   repo-branch: main
   repo-actions: [edit]
-  site-url: https://www.chadmilando.com/CHDS_bookdown/
-  sidebar:
-    collapse-level: 1
-  chapters:
-    - index.qmd
-    - part: data_sources.qmd
-      chapters:
-      - data_Marketscan.qmd
-    - staff.qmd
+  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://www.chadmilando.com/CHDS_bookdown/){target="_blank"}
 
-bibliography: references.bib
-csl: nature.csl
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd
+      - text: Data Sources
+        menu:
+          - text: Overview
+            file: data_sources.qmd
+          - text: MarketScan
+            file: data_Marketscan.qmd
+      - text: Staff
+        file: staff.qmd
 
 format:
   html:
     theme:
       - cosmo
       - markdown-style.scss
-  pdf:
-    documentclass: scrreprt
+
+bibliography: references.bib
+csl: nature.csl

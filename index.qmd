@@ -1,10 +1,16 @@
-# Welcome { .unnumbered}
+---
+title: "Welcome"
+title-block-banner: banner2.png
+layout: "columns"
+---
 
 The Center for Health Data Sciences **Data Hub** is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of **data science, machine learning, and AI**. Whether you're just getting started or exploring advanced analytic strategies, the Data Hub is your **first stop for expert advice**.
 
 ---
+:::: {.columns}
 
-### What We Offer
+::: {.column width="47%"}
+###  What We Offer {  .unnumbered} 
 
 Our team of data specialists provides short, targeted consultations to help researchers:
 
@@ -15,15 +21,26 @@ Our team of data specialists provides short, targeted consultations to help rese
 - Triage complex needs to the right people across BU
 
 These 30-minute sessions are offered at no cost and are open to faculty and staff across BU.
+:::
 
+::: {.column width="6%"}
+:::
 
+::: {.column width="47%"}
 ### How It Works
 
-1. **Submit a Request**: Use our [consultation request form](#) or email us at [chds@bu.edu](mailto:chds@bu.edu)
+1. **Submit a Request**: Email us at [chds@bu.edu](mailto:chds@bu.edu)
 2. **We’ll Schedule a Session**: A data expert will meet with you virtually or in person
 3. **Get Connected**: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond
 
 We use a centralized request system to track usage trends, reduce email overload, and continuously improve service.
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="47%"}
 
 ### Topics We Cover
 
@@ -37,6 +54,13 @@ Our team can help with questions related to:
 
 Learn more: [Data source inventory](data_sources.qmd)
 
+:::
+
+::: {.column width="6%"}
+:::
+
+::: {.column width="47%"}
+
 ### Strategic Benefits
 
 The Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:
@@ -45,6 +69,7 @@ The Data Hub isn’t just about problem-solving—it’s about enabling research
 - **Strengthen proposals** by improving data and methodology plans
 - **Save time**, letting investigators focus on analysis instead of logistics
 
-
+:::
+::::
 > _The BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university._
 

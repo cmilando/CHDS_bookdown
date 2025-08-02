@@ -1,109 +1,37 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Hub",
-    "section": "",
-    "text": "Welcome\nThe Center for Health Data Sciences Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.\n\n\nWhat We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources\nUnderstand data access pathways and ethical considerations\nStrengthen analytic strategy and research design\nFacilitate interdepartmental collaboration\nTriage complex needs to the right people across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.\n\n\nHow It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.\n\n\nTopics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\nLearn more: Data source inventory\n\n\nStrategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
     "objectID": "data_sources.html",
     "href": "data_sources.html",
     "title": "Data Source Inventory",
     "section": "",
-    "text": "Warning\n\n\n\nfilled in by CHAT-GPT, need to confirm but honestly looks pretty good\n\n\nThis table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nMarketScan\nClaims data from commercial insurers, Medicare & Medicaid enrollees\nNational; insured populations (2010–2022)\nLicensed via DUA with Truven\nTruven/IBM MarketScan Overview\n\n\nOptum\nDe-identified claims and EHR data from Optum clients\n~100M+ covered lives; national\nLicense required\nOften used in comparative effectiveness and pharmacoepi research\n\n\nCMS Medicare\nMedicare Parts A, B, D claims and enrollment files\nUS adults ≥65 and disabled populations\nResDAC request and DUA\nCMS Data Navigator\n\n\nNHANES\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nACS (American Community Survey)\nOngoing demographic, housing, social, and economic data\nNational, sub-county level (tract/block)\nPublic\nACS Data\n\n\nNSDUH\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nAll of Us\nNational cohort with EHRs, biospecimens, and surveys\nDiverse US cohort, oversampling minorities\nControlled tier via Researcher Hub\nAll of Us Data Browser\n\n\nBRFSS\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nNSAF\nNational Survey of America’s Families (historical)\nCross-sectional (1997–2002)\nPublic (retired, archived)\nUsed in Medicaid and CHIP policy research\n\n\nVital Statistics (NCHS)\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP",
-    "crumbs": [
-      "Data Source Inventory"
-    ]
+    "text": "Warning\n\n\n\nfilled in somewhat by CHAT-GPT, need to confirm but honestly looks pretty good\n\n\nThis table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nMarketScan\nClaims data from commercial insurers, Medicare & Medicaid enrollees\nNational; insured populations (2010–2022)\nLicensed via DUA with Truven\nTruven/IBM MarketScan Overview\n\n\nOptum\nDe-identified claims and EHR data from Optum clients\n~100M+ covered lives; national\nLicense required\nOften used in comparative effectiveness and pharmacoepi research\n\n\nCMS Medicare\nMedicare Parts A, B, D claims and enrollment files\nUS adults ≥65 and disabled populations\nResDAC request and DUA\nCMS Data Navigator\n\n\nNHANES\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nACS (American Community Survey)\nOngoing demographic, housing, social, and economic data\nNational, sub-county level (tract/block)\nPublic\nACS Data\n\n\nNSDUH\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nAll of Us\nNational cohort with EHRs, biospecimens, and surveys\nDiverse US cohort, oversampling minorities\nControlled tier via Researcher Hub\nAll of Us Data Browser\n\n\nBRFSS\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nNSAF\nNational Survey of America’s Families (historical)\nCross-sectional (1997–2002)\nPublic (retired, archived)\nUsed in Medicaid and CHIP policy research\n\n\nVital Statistics (NCHS)\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "The Center for Health Data Sciences Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.\n\n\n\n\nWhat We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources\nUnderstand data access pathways and ethical considerations\nStrengthen analytic strategy and research design\nFacilitate interdepartmental collaboration\nTriage complex needs to the right people across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.\n\n\n\n\n\nHow It Works\n\nSubmit a Request: Email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.\n\n\n\n\n\n\nTopics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\nLearn more: Data source inventory\n\n\n\n\n\nStrategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\n\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university."
   },
   {
     "objectID": "data_Marketscan.html",
     "href": "data_Marketscan.html",
     "title": "MarketScan",
     "section": "",
-    "text": "📚 Data Dictionary, Metadata, Years Available\nMarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#data-dictionary-metadata-years-available",
-    "href": "data_Marketscan.html#data-dictionary-metadata-years-available",
-    "title": "MarketScan",
-    "section": "",
-    "text": "Years Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#submit-a-project-proposal",
-    "href": "data_Marketscan.html#submit-a-project-proposal",
-    "title": "MarketScan",
-    "section": "Submit a Project Proposal",
-    "text": "Submit a Project Proposal\nYou can submit your proposal using the REDCap form below:",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#current-projects-using-marketscan",
-    "href": "data_Marketscan.html#current-projects-using-marketscan",
-    "title": "MarketScan",
-    "section": "Current Projects Using MarketScan",
-    "text": "Current Projects Using MarketScan\n\nProject 1\nAuthor",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#past-projects",
-    "href": "data_Marketscan.html#past-projects",
-    "title": "MarketScan",
-    "section": "Past Projects",
-    "text": "Past Projects\n\nProject 1\nAuthor\nFinal Report (PDF)",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#related-publications",
-    "href": "data_Marketscan.html#related-publications",
-    "title": "MarketScan",
-    "section": "Related Publications",
-    "text": "Related Publications",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
-  },
-  {
-    "objectID": "data_Marketscan.html#code-snippets-to-get-started",
-    "href": "data_Marketscan.html#code-snippets-to-get-started",
-    "title": "MarketScan",
-    "section": "Code Snippets to Get Started",
-    "text": "Code Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")",
-    "crumbs": [
-      "Data Source Inventory",
-      "MarketScan"
-    ]
+    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
   },
   {
     "objectID": "staff.html",
     "href": "staff.html",
     "title": "Staff",
     "section": "",
-    "text": "If we want to talk about CHDS staff, could do it here",
-    "crumbs": [
-      "Staff"
-    ]
+    "text": "Staff\nIf we want to talk about CHDS staff, could do it here"
+  },
+  {
+    "objectID": "data_Marketscan.html#data-dictionary-metadata-years-available",
+    "href": "data_Marketscan.html#data-dictionary-metadata-years-available",
+    "title": "MarketScan",
+    "section": "",
+    "text": "Years Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\n\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\n\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\n\n\n\n\n\n\n\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
   }
 ]
