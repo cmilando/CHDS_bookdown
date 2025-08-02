@@ -14,7 +14,8 @@ The Center for Health Data Sciences **Data Hub** is a university-wide consultati
 
 Our team of data specialists provides short, targeted consultations to help researchers:
 
-- Discover and evaluate relevant **data sources**
+- Discover and evaluate relevant [**internal**](data_sources.qmd) and [**external**](data_external.qmd) data sources.
+- Learn about [**computational resources available at BU**](data_infrastructure.qmd)
 - Understand **data access pathways** and ethical considerations
 - Strengthen **analytic strategy** and research design
 - Facilitate **interdepartmental collaboration**
@@ -35,13 +36,12 @@ These 30-minute sessions are offered at no cost and are open to faculty and staf
 
 We use a centralized request system to track usage trends, reduce email overload, and continuously improve service.
 :::
-
 ::::
+
 
 :::: {.columns}
 
 ::: {.column width="47%"}
-
 ### Topics We Cover
 
 Our team can help with questions related to:
@@ -51,15 +51,13 @@ Our team can help with questions related to:
 - IRB and data use agreements (DUAs)
 - Matching your research question to the right method or tool
 - Building collaborations across BU
-
-Learn more: [Data source inventory](data_sources.qmd)
-
 :::
 
 ::: {.column width="6%"}
 :::
 
 ::: {.column width="47%"}
+
 
 ### Strategic Benefits
 
@@ -68,8 +66,8 @@ The Data Hub isn’t just about problem-solving—it’s about enabling research
 - **Break down silos** across schools and research centers
 - **Strengthen proposals** by improving data and methodology plans
 - **Save time**, letting investigators focus on analysis instead of logistics
-
 :::
 ::::
+
 > _The BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university._
 

@@ -14,12 +14,12 @@ website:
     left:
       - text: Home
         file: index.qmd
-      - text: Data Sources
-        menu:
-          - text: Overview
-            file: data_sources.qmd
-          - text: MarketScan
-            file: data_Marketscan.qmd
+      - text: Internal Data
+        file: data_sources.qmd
+      - text: External Data
+        file: data_external.qmd
+      - text: Infrastructure
+        file: data_infrastructure.qmd
       - text: Staff
         file: staff.qmd
 

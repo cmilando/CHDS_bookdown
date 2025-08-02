@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_sources.html</loc>
-    <lastmod>2025-08-02T16:38:44.021Z</lastmod>
+    <lastmod>2025-08-02T17:34:48.127Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/index.html</loc>
-    <lastmod>2025-08-02T16:51:23.229Z</lastmod>
+    <lastmod>2025-08-02T17:30:55.180Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.chadmilando.com/CHDS_bookdown/data_infrastructure.html</loc>
+    <lastmod>2025-08-02T17:14:46.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.chadmilando.com/CHDS_bookdown/data_external.html</loc>
+    <lastmod>2025-08-02T17:34:12.177Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_Marketscan.html</loc>

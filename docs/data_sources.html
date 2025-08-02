@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Source Inventory – Data Hub</title>
+<title>Internal Data Sources – Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,21 +101,18 @@ background-size: cover;
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-sources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Sources</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-sources">    
-        <li>
-    <a class="dropdown-item" href="./data_sources.html">
- <span class="dropdown-text">Overview</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./data_sources.html" aria-current="page"> 
+<span class="menu-text">Internal Data</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./data_Marketscan.html">
- <span class="dropdown-text">MarketScan</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./data_external.html"> 
+<span class="menu-text">External Data</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./data_infrastructure.html"> 
+<span class="menu-text">Infrastructure</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./staff.html"> 
 <span class="menu-text">Staff</span></a>
@@ -131,7 +128,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Data Source Inventory</h1>
+      <h1 class="title">Internal Data Sources</h1>
                       </div>
   </div>
     
@@ -155,128 +152,74 @@ background-size: cover;
 
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>filled in somewhat by CHAT-GPT, need to confirm but honestly looks pretty good</p>
-</div>
-</div>
-<p>This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.</p>
+<p>This table summarizes commonly used data sources for population health, health services, and social science research at BU. It includes administrative claims, EHR, survey, and public health datasets.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Data Source</th>
+<th>Resource</th>
 <th>Description</th>
-<th>Population/Coverage</th>
-<th>Access &amp; Restrictions</th>
-<th>Notes/Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="./data_Marketscan.html"><strong>MarketScan</strong></a></td>
-<td>Claims data from commercial insurers, Medicare &amp; Medicaid enrollees</td>
-<td>National; insured populations (2010–2022)</td>
-<td>Licensed via DUA with Truven</td>
-<td><a href="https://www.ibm.com/products/marketscan-research-databases">Truven/IBM MarketScan Overview</a></td>
+<td><strong>Data Axle</strong></td>
+<td>Business and consumer dataset covering 15M+ U.S. businesses and 300M consumers. Useful for market research and outreach. Proprietary; may lack public health relevance or timeliness.</td>
 </tr>
 <tr class="even">
-<td><strong>Optum</strong></td>
-<td>De-identified claims and EHR data from Optum clients</td>
-<td>~100M+ covered lives; national</td>
-<td>License required</td>
-<td>Often used in comparative effectiveness and pharmacoepi research</td>
+<td><strong>American Community Survey (ACS)</strong></td>
+<td>Annual U.S. Census survey covering 3.5M households. Offers tract-level demographic, housing, and economic data. Key for policy and spatial analysis. Estimates have margins of error for small areas.</td>
 </tr>
 <tr class="odd">
+<td><strong>CMS Medicaid</strong></td>
+<td>Claims and enrollment data for 70M+ Medicaid beneficiaries. Strong for analyzing access, costs, and care use in low-income populations. Limitations include state variability and reporting lags.</td>
+</tr>
+<tr class="even">
 <td><strong>CMS Medicare</strong></td>
-<td>Medicare Parts A, B, D claims and enrollment files</td>
-<td>US adults ≥65 and disabled populations</td>
-<td>ResDAC request and DUA</td>
-<td><a href="https://dnav.cms.gov/">CMS Data Navigator</a></td>
-</tr>
-<tr class="even">
-<td><strong>NHANES</strong></td>
-<td>National Health and Nutrition Examination Survey</td>
-<td>National, representative sample</td>
-<td>Public + restricted access tiers</td>
-<td><a href="https://www.cdc.gov/nchs/nhanes/index.htm">NHANES</a></td>
+<td>Claims and enrollment data for ~65M older or disabled Americans. Ideal for longitudinal studies of healthcare use in older adults. Lacks younger/uninsured populations and clinical granularity.</td>
 </tr>
 <tr class="odd">
-<td><strong>ACS (American Community Survey)</strong></td>
-<td>Ongoing demographic, housing, social, and economic data</td>
-<td>National, sub-county level (tract/block)</td>
-<td>Public</td>
-<td><a href="https://www.census.gov/programs-surveys/acs/">ACS Data</a></td>
+<td><strong>CMS T-MSIS</strong></td>
+<td>Standardized Medicaid/CHIP data from all states. Includes claims, enrollment, and provider data. Designed for national comparability. Challenging to use; varies in quality across states.</td>
 </tr>
 <tr class="even">
-<td><strong>NSDUH</strong></td>
-<td>National Survey on Drug Use and Health</td>
-<td>US residents aged ≥12</td>
-<td>Public microdata via SAMHDA</td>
-<td><a href="https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health">NSDUH</a></td>
+<td><strong>CHIA APCD</strong></td>
+<td>Massachusetts all-payer claims database covering ~80% of the population. Strong for health utilization and insurance analysis. Lacks uninsured individuals and comprehensive race/ethnicity data.</td>
 </tr>
 <tr class="odd">
-<td><strong>HRS</strong></td>
-<td>Health and Retirement Study</td>
-<td>US adults ≥50, longitudinal panel</td>
-<td>Public + restricted files</td>
-<td><a href="https://hrs.isr.umich.edu/data-products">HRS</a></td>
+<td><a href="./data_Marketscan.html"><strong>MarketScan</strong></a></td>
+<td>Proprietary claims database with 200M+ covered lives. Detailed data for commercially insured individuals. Excellent for utilization and cost studies, but not generalizable to public/uninsured populations.</td>
 </tr>
 <tr class="even">
-<td><strong>All of Us</strong></td>
-<td>National cohort with EHRs, biospecimens, and surveys</td>
-<td>Diverse US cohort, oversampling minorities</td>
-<td>Controlled tier via Researcher Hub</td>
-<td><a href="https://databrowser.researchallofus.org">All of Us Data Browser</a></td>
+<td><strong>EPIC/EHR</strong></td>
+<td>Clinical EHR data from EPIC systems. Rich in labs, diagnoses, medications, and procedures. Granular and timely, but limited to care within EPIC networks and varies by institution.</td>
 </tr>
 <tr class="odd">
-<td><strong>BRFSS</strong></td>
-<td>Behavioral Risk Factor Surveillance System</td>
-<td>National; state-level behavioral data</td>
-<td>Public</td>
-<td><a href="https://www.cdc.gov/brfss/">BRFSS</a></td>
+<td><strong>OptumLabs Data Warehouse</strong></td>
+<td>Longitudinal EHR and claims for 200M+ commercial and Medicare Advantage enrollees. Strong for real-world evidence studies. Proprietary; limited Medicaid and uninsured data.</td>
 </tr>
 <tr class="even">
-<td><strong>MEPS</strong></td>
-<td>Medical Expenditure Panel Survey</td>
-<td>US households and medical providers</td>
-<td>Public</td>
-<td><a href="https://meps.ahrq.gov/mepsweb/">MEPS</a></td>
+<td><strong>ADVANCE Data Warehouse</strong></td>
+<td>PCORnet-affiliated EHR and claims data from safety-net clinics (e.g., OCHIN). Strong equity lens; over 7M underserved patients. Less generalizable to broader populations.</td>
 </tr>
 <tr class="odd">
-<td><strong>NSAF</strong></td>
-<td>National Survey of America’s Families (historical)</td>
-<td>Cross-sectional (1997–2002)</td>
-<td>Public (retired, archived)</td>
-<td>Used in Medicaid and CHIP policy research</td>
+<td><strong>CDC Platforms (WONDER, mRFEI, PLACES, etc.)</strong></td>
+<td>Public health datasets including mortality (WONDER), food environment (mRFEI), local disease burden (PLACES), and life expectancy (USALEEP). Easy access, but often ecological with time lags.</td>
 </tr>
 <tr class="even">
-<td><strong>Vital Statistics (NCHS)</strong></td>
-<td>Birth, death, fetal death, marriage, and divorce data</td>
-<td>National and state-level</td>
-<td>Public (some restricted use)</td>
-<td><a href="https://www.cdc.gov/nchs/nvss/">CDC Vital Stats</a></td>
+<td><strong>Census</strong></td>
+<td>Decennial population count (~330M U.S. residents). Provides full coverage demographic and housing data. Used for policy, planning, and allocation. Conducted every 10 years; limited variable detail.</td>
 </tr>
 <tr class="odd">
-<td><strong>SEER-Medicare</strong></td>
-<td>Linked cancer registry and Medicare claims data</td>
-<td>Cancer patients ≥65</td>
-<td>Application through NCI/ResDAC</td>
-<td><a href="https://healthcaredelivery.cancer.gov/seermedicare/">SEER-Medicare</a></td>
+<td><strong>HRSA</strong></td>
+<td>Health access and provider shortage data, including HPSAs and FQHCs. Covers underserved regions and providers. Ideal for access-to-care studies; lacks clinical or patient-level detail.</td>
 </tr>
 <tr class="even">
-<td><strong>HCUP</strong></td>
-<td>Healthcare Cost and Utilization Project</td>
-<td>Inpatient, ED, ambulatory visits</td>
-<td>State-specific, requires purchase</td>
-<td><a href="https://www.hcup-us.ahrq.gov/">HCUP</a></td>
+<td><strong>IMLS</strong></td>
+<td>Library and museum usage and operations data from thousands of institutions. Useful for civic infrastructure research. No individual health data and few public health indicators.</td>
+</tr>
+<tr class="odd">
+<td><strong>USDA (e.g., Food Access Atlas, SNAP data)</strong></td>
+<td>Food environment, SNAP participation, and rurality measures. Common in food insecurity and rural health work. Data are ecological and updates can lag behind.</td>
 </tr>
 </tbody>
 </table>

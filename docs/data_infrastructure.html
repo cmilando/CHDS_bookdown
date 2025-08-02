@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – Data Hub</title>
+<title>Data Infrastructure – Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,7 +98,7 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -110,7 +110,7 @@ background-size: cover;
 <span class="menu-text">External Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data_infrastructure.html"> 
+    <a class="nav-link active" href="./data_infrastructure.html" aria-current="page"> 
 <span class="menu-text">Infrastructure</span></a>
   </li>  
   <li class="nav-item">
@@ -128,7 +128,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome</h1>
+      <h1 class="title">Data Infrastructure</h1>
                       </div>
   </div>
     
@@ -152,67 +152,43 @@ background-size: cover;
 
 
 
-<p>The Center for Health Data Sciences <strong>Data Hub</strong> is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of <strong>data science, machine learning, and AI</strong>. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your <strong>first stop for expert advice</strong>.</p>
-<hr>
-<div class="columns">
-<div class="column" style="width:47%;">
-<section id="what-we-offer" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="what-we-offer">What We Offer</h3>
-<p>Our team of data specialists provides short, targeted consultations to help researchers:</p>
-<ul>
-<li>Discover and evaluate relevant <a href="./data_sources.html"><strong>internal</strong></a> and <a href="./data_external.html"><strong>external</strong></a> data sources.</li>
-<li>Learn about <a href="./data_infrastructure.html"><strong>computational resources available at BU</strong></a></li>
-<li>Understand <strong>data access pathways</strong> and ethical considerations</li>
-<li>Strengthen <strong>analytic strategy</strong> and research design</li>
-<li>Facilitate <strong>interdepartmental collaboration</strong></li>
-<li>Triage complex needs to the right people across BU</li>
-</ul>
-<p>These 30-minute sessions are offered at no cost and are open to faculty and staff across BU.</p>
-</section>
-</div><div class="column" style="width:6%;">
-
-</div><div class="column" style="width:47%;">
-<section id="how-it-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
-<ol type="1">
-<li><strong>Submit a Request</strong>: Email us at <a href="mailto:chds@bu.edu">chds@bu.edu</a></li>
-<li><strong>We’ll Schedule a Session</strong>: A data expert will meet with you virtually or in person</li>
-<li><strong>Get Connected</strong>: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond</li>
-</ol>
-<p>We use a centralized request system to track usage trends, reduce email overload, and continuously improve service.</p>
-</section>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:47%;">
-<section id="topics-we-cover" class="level3">
-<h3 class="anchored" data-anchor-id="topics-we-cover">Topics We Cover</h3>
-<p>Our team can help with questions related to:</p>
-<ul>
-<li>Sourcing internal and external datasets</li>
-<li>Data licensing and permissions</li>
-<li>IRB and data use agreements (DUAs)</li>
-<li>Matching your research question to the right method or tool</li>
-<li>Building collaborations across BU</li>
-</ul>
-</section>
-</div><div class="column" style="width:6%;">
-
-</div><div class="column" style="width:47%;">
-<section id="strategic-benefits" class="level3">
-<h3 class="anchored" data-anchor-id="strategic-benefits">Strategic Benefits</h3>
-<p>The Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:</p>
-<ul>
-<li><strong>Break down silos</strong> across schools and research centers</li>
-<li><strong>Strengthen proposals</strong> by improving data and methodology plans</li>
-<li><strong>Save time</strong>, letting investigators focus on analysis instead of logistics</li>
-</ul>
-</section>
-</div>
-</div>
-<blockquote class="blockquote">
-<p><em>The BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.</em></p>
-</blockquote>
+<p>This table summarizes key computing and data hosting environments available to BU-affiliated researchers working with sensitive, large-scale, or high-complexity data.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 34%">
+<col style="width: 27%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Description</th>
+<th>Key Features</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>BU Shared Computing Cluster (SCC)</strong></td>
+<td>High-performance computing (HPC) system supporting large-scale data processing and modeling</td>
+<td>Thousands of CPU cores, GPU nodes, parallel computing, genomics/claims analysis support</td>
+<td>Steep learning curve for non-technical users; some limitations on sensitive data storage</td>
+</tr>
+<tr class="even">
+<td><strong>BMC CDW-R (BMC EHR)</strong></td>
+<td>De-identified and limited datasets from BMC’s Epic EHR, optimized for research with underserved populations</td>
+<td>Clinical, demographic, encounter-level data; equity-focused use cases</td>
+<td>Typical EHR issues (e.g., missing data, variable coding); may not generalize beyond BMC patients</td>
+</tr>
+<tr class="odd">
+<td><strong>BEDAC Secure Research Cloud (SRC)</strong></td>
+<td>HIPAA-compliant, access-controlled cloud for working with sensitive health data</td>
+<td>Secure environment for EHR/claims data; tools include R, SAS, Python, SQL</td>
+<td>Requires IRB &amp; DUA approvals; onboarding time; limited to approved users</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -642,7 +618,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>CHDS Data Hub - <a href="https://www.chadmilando.com/CHDS_bookdown/" target="_blank">https://sites.bu.edu/CHDS-data-hub/</a></p>
-<div class="toc-actions"><ul><li><a href="https://www.chadmilando.com/CHDS_bookdown/edit/main/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://www.chadmilando.com/CHDS_bookdown/edit/main/data_infrastructure.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
