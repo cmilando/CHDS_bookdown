@@ -15,11 +15,9 @@ The Center for Health Data Sciences **Data Hub** is a university-wide consultati
 Our team of data specialists provides short, targeted consultations to help researchers:
 
 - Discover and evaluate relevant [**internal**](data_sources.qmd) and [**external**](data_external.qmd) data sources.
-- Learn about [**computational resources available at BU**](data_infrastructure.qmd)
-- Understand **data access pathways** and ethical considerations
-- Strengthen **analytic strategy** and research design
-- Facilitate **interdepartmental collaboration**
-- Triage complex needs to the right people across BU
+- Learn about [**computational resources**](data_infrastructure.qmd) available at BU
+- Provide feedback on **research design** 
+- Facilitate **collaboration** across BU
 
 These 30-minute sessions are offered at no cost and are open to faculty and staff across BU.
 :::

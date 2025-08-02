@@ -5,8 +5,8 @@ title-block-banner: banner2.png
 
 This table summarizes commonly used data sources for population health, health services, and social science research at BU. It includes administrative claims, EHR, survey, and public health datasets.
 
-| Resource                                          | Description                                                                                                                                                                                                                     |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Resource                                          | Description                 |
+|--------------------------------------------------|--------------------------------|
 | **Data Axle**                                    | Business and consumer dataset covering 15M+ U.S. businesses and 300M consumers. Useful for market research and outreach. Proprietary; may lack public health relevance or timeliness.                                           |           
 | **American Community Survey (ACS)**              | Annual U.S. Census survey covering 3.5M households. Offers tract-level demographic, housing, and economic data. Key for policy and spatial analysis. Estimates have margins of error for small areas.                          |             
 | **CMS Medicaid**                                 | Claims and enrollment data for 70M+ Medicaid beneficiaries. Strong for analyzing access, costs, and care use in low-income populations. Limitations include state variability and reporting lags.                             |             
