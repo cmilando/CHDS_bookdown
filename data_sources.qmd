@@ -1,5 +1,9 @@
 # Data Source Inventory
 
+::: {.callout-warning}
+filled in by CHAT-GPT, need to confirm but honestly looks pretty good
+:::
+
 This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.
 
 | Data Source     | Description                                                                 | Population/Coverage                          | Access & Restrictions              | Notes/Links                                                                 |

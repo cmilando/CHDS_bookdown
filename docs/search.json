@@ -23,8 +23,8 @@
     "objectID": "index.html#how-it-works",
     "href": "index.html#how-it-works",
     "title": "Data Hub",
-    "section": "💬 How It Works",
-    "text": "💬 How It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.",
+    "section": "How It Works",
+    "text": "How It Works\n\nSubmit a Request: Use our consultation request form or email us at chds@bu.edu\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends, reduce email overload, and continuously improve service.",
     "crumbs": [
       "Welcome"
     ]
@@ -33,8 +33,8 @@
     "objectID": "index.html#topics-we-cover",
     "href": "index.html#topics-we-cover",
     "title": "Data Hub",
-    "section": "🧠 Topics We Cover",
-    "text": "🧠 Topics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU",
+    "section": "Topics We Cover",
+    "text": "Topics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\nLearn more: Data source inventory",
     "crumbs": [
       "Welcome"
     ]
@@ -43,38 +43,8 @@
     "objectID": "index.html#strategic-benefits",
     "href": "index.html#strategic-benefits",
     "title": "Data Hub",
-    "section": "🧭 Strategic Benefits",
-    "text": "🧭 Strategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#expansion-plan",
-    "href": "index.html#expansion-plan",
-    "title": "Data Hub",
-    "section": "🗺️ Expansion Plan",
-    "text": "🗺️ Expansion Plan\nThe Data Hub will launch in three phases:\n\nSPH Pilot: Initial outreach to BU School of Public Health\nBU Medical Campus: Expand to BUSM, CTSI, and partner centers\nCharles River Campus: Connect with Hariri, CDS, and cross-campus research teams",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#evaluation-feedback",
-    "href": "index.html#evaluation-feedback",
-    "title": "Data Hub",
-    "section": "📈 Evaluation & Feedback",
-    "text": "📈 Evaluation & Feedback\nWe aim to build a responsive and effective service. We’ll evaluate the program by tracking:\n\nConsultation frequency and user demographics\nReferral pathways and resolution timelines\nFeedback on satisfaction and usefulness",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#get-started",
-    "href": "index.html#get-started",
-    "title": "Data Hub",
-    "section": "🧩 Get Started",
-    "text": "🧩 Get Started\nReady to work smarter with data?\n📧 Email us: chds@bu.edu\n📅 Book a session: Request a consultation\n📌 Learn more: Data source inventory\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
+    "section": "Strategic Benefits",
+    "text": "Strategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university.",
     "crumbs": [
       "Welcome"
     ]
@@ -84,7 +54,7 @@
     "href": "data_sources.html",
     "title": "Data Source Inventory",
     "section": "",
-    "text": "This table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nMarketScan\nClaims data from commercial insurers, Medicare & Medicaid enrollees\nNational; insured populations (2010–2022)\nLicensed via DUA with Truven\nTruven/IBM MarketScan Overview\n\n\nOptum\nDe-identified claims and EHR data from Optum clients\n~100M+ covered lives; national\nLicense required\nOften used in comparative effectiveness and pharmacoepi research\n\n\nCMS Medicare\nMedicare Parts A, B, D claims and enrollment files\nUS adults ≥65 and disabled populations\nResDAC request and DUA\nCMS Data Navigator\n\n\nNHANES\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nACS (American Community Survey)\nOngoing demographic, housing, social, and economic data\nNational, sub-county level (tract/block)\nPublic\nACS Data\n\n\nNSDUH\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nAll of Us\nNational cohort with EHRs, biospecimens, and surveys\nDiverse US cohort, oversampling minorities\nControlled tier via Researcher Hub\nAll of Us Data Browser\n\n\nBRFSS\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nNSAF\nNational Survey of America’s Families (historical)\nCross-sectional (1997–2002)\nPublic (retired, archived)\nUsed in Medicaid and CHIP policy research\n\n\nVital Statistics (NCHS)\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP",
+    "text": "Warning\n\n\n\nfilled in by CHAT-GPT, need to confirm but honestly looks pretty good\n\n\nThis table provides an overview of population and health-related data sources commonly used in epidemiology, health services, and social science research. It includes a brief description, key attributes, access requirements, and relevant links or notes.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nMarketScan\nClaims data from commercial insurers, Medicare & Medicaid enrollees\nNational; insured populations (2010–2022)\nLicensed via DUA with Truven\nTruven/IBM MarketScan Overview\n\n\nOptum\nDe-identified claims and EHR data from Optum clients\n~100M+ covered lives; national\nLicense required\nOften used in comparative effectiveness and pharmacoepi research\n\n\nCMS Medicare\nMedicare Parts A, B, D claims and enrollment files\nUS adults ≥65 and disabled populations\nResDAC request and DUA\nCMS Data Navigator\n\n\nNHANES\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nACS (American Community Survey)\nOngoing demographic, housing, social, and economic data\nNational, sub-county level (tract/block)\nPublic\nACS Data\n\n\nNSDUH\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nAll of Us\nNational cohort with EHRs, biospecimens, and surveys\nDiverse US cohort, oversampling minorities\nControlled tier via Researcher Hub\nAll of Us Data Browser\n\n\nBRFSS\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nNSAF\nNational Survey of America’s Families (historical)\nCross-sectional (1997–2002)\nPublic (retired, archived)\nUsed in Medicaid and CHIP policy research\n\n\nVital Statistics (NCHS)\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP",
     "crumbs": [
       "Data Source Inventory"
     ]

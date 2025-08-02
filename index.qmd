@@ -18,7 +18,7 @@ These 30-minute sessions are offered at no cost and are open to faculty and staf
 
 ---
 
-## 💬 How It Works
+## How It Works
 
 1. **Submit a Request**: Use our [consultation request form](#) or email us at [chds@bu.edu](mailto:chds@bu.edu)
 2. **We’ll Schedule a Session**: A data expert will meet with you virtually or in person
@@ -28,7 +28,7 @@ We use a centralized request system to track usage trends, reduce email overload
 
 ---
 
-## 🧠 Topics We Cover
+## Topics We Cover
 
 Our team can help with questions related to:
 
@@ -38,45 +38,17 @@ Our team can help with questions related to:
 - Matching your research question to the right method or tool
 - Building collaborations across BU
 
+Learn more: [Data source inventory](data_sources.qmd)
+
 ---
 
-## 🧭 Strategic Benefits
+## Strategic Benefits
 
 The Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:
 
 - **Break down silos** across schools and research centers
 - **Strengthen proposals** by improving data and methodology plans
 - **Save time**, letting investigators focus on analysis instead of logistics
-
----
-
-## 🗺️ Expansion Plan
-
-The Data Hub will launch in **three phases**:
-
-1. **SPH Pilot**: Initial outreach to BU School of Public Health
-2. **BU Medical Campus**: Expand to BUSM, CTSI, and partner centers
-3. **Charles River Campus**: Connect with Hariri, CDS, and cross-campus research teams
-
----
-
-## 📈 Evaluation & Feedback
-
-We aim to build a responsive and effective service. We'll evaluate the program by tracking:
-
-- Consultation frequency and user demographics
-- Referral pathways and resolution timelines
-- Feedback on satisfaction and usefulness
-
----
-
-## 🧩 Get Started
-
-Ready to work smarter with data?
-
-📧 Email us: [chds@bu.edu](mailto:chds@bu.edu)  
-📅 Book a session: [Request a consultation](#)  
-📌 Learn more: [Data source inventory](data_sources.qmd)
 
 ---
 

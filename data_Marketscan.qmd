@@ -1,9 +1,5 @@
 # MarketScan { .unnumbered}
 
-::: {.callout-warning}
-THIS IS ALL MADE UP BY CHAT-GPT, JUST A PLACEHOLDER FOR NOW
-:::
-
 MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.
 
 ---
