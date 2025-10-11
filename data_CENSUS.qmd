@@ -1,55 +1,30 @@
 ---
-title: "MarketScan"
+title: "Census"
 title-block-banner: banner2.png
 ---
 
-MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.
+_description_
 
 ---
 
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
-- **Years Available**:  
+- **Years Available**: 
 - **Geography**: 
 - **Population**: 
 - **Documentation**:
-  - [Download Data Dictionary (PDF)](pdfs/Marketscan/Data_Dictionary.pdf)
-  - [Download User Guide (PDF)](pdfs/Marketscan/User_Guide.pdf)
+  - Tutorial from BU Libraries: 
 
-### Data Use Agreement (DUA) and Abstract
+### How to access
 
-Access to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.
-
-_**Sample abstract for DUA request**_:
-> This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.
-
-### Current and Past Projects Using MarketScan
-
-- **Project 1**  
-  Author
-  Date:
-
-- **Project 1**  
-  Author
-  Date:
-  [Final Report (PDF)](link-to-report)
+Reach out to chds@bu.edu to request a dataset designated by:
+- 
 
 ### Related Publications
 
 - 
 
 
-### Code Snippets to Get Started
+### Getting started
 
-```r
-# Load claims data
-claims <- fread("marketscan_claims_2021.csv")
-
-# Summary by diagnosis
-claims[, .N, by = .(diagnosis_code)][order(-N)]
-
-# Join with enrollment data
-merged <- merge(claims, enrollment, by = "patient_id")
-```
-
- 
+- [Download Getting Started Guide]()

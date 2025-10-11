@@ -9,23 +9,37 @@
   {
     "objectID": "data_CHIAAPCD.html",
     "href": "data_CHIAAPCD.html",
-    "title": "MarketScan",
+    "title": "CHIA APCD",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CHIAAPCD.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CHIAAPCD.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "CHIA APCD",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_CMSTMSIS.html",
     "href": "data_CMSTMSIS.html",
-    "title": "MarketScan",
+    "title": "CMS TMSIS",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CMSTMSIS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CMSTMSIS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "CMS TMSIS",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_DataAxle.html",
     "href": "data_DataAxle.html",
-    "title": "MarketScan",
+    "title": "DataAxle",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "Data Axle provides comprehensive business and consumer data that includes millions of U.S. business records, categorized by industry using enhanced NAICS and SIC codes. These data enable granular analysis of resource access and utilization at geographic resolutions as small as the Census Block. Data are updated annually and include information about site, employee size and revenue.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: 1997-2024\nGeography: Geocoded point-of-interest data\nPopulation: United States\nDocumentation:\n\nTutorial from BU Libraries: https://library.bu.edu/dataaxle\n\n\n\n\nHow to access\nReach out to chds@bu.edu to request a dataset designated by: - Year - Business code (NAICS, SIC) - Zip code (optional) - State (optional) - Location or parent employee size (optional) - Location or parent sales volume code (optional) - Gender of contact or executive (optional)\n\n\nRelated Publications\n\nNori-Sarma A, Spangler KR, Wang B, Cesare N, Dukes KA, Lane KJ. Impacts of the choice of distance measurement method on estimates of access to point-based resources. J Expo Sci Environ Epidemiol. 2023 Mar;33(2):237-243. doi: 10.1038/s41370-022-00414-z. Epub 2022 Feb 10. PMID: 35145207.\n\n\n\nGetting started\n\nDownload Getting Started Guide (.pptx)"
   },
   {
     "objectID": "index.html",
@@ -37,23 +51,44 @@
   {
     "objectID": "data_HRSA.html",
     "href": "data_HRSA.html",
-    "title": "MarketScan",
+    "title": "HRSA",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_HRSA.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_HRSA.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "HRSA",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_ACS.html",
     "href": "data_ACS.html",
-    "title": "MarketScan",
+    "title": "ACS",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_ACS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ACS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "ACS",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_EPIC.html",
     "href": "data_EPIC.html",
-    "title": "MarketScan",
+    "title": "EPIC",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_EPIC.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_EPIC.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "EPIC",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_infrastructure.html",
@@ -72,16 +107,30 @@
   {
     "objectID": "data_CENSUS.html",
     "href": "data_CENSUS.html",
-    "title": "MarketScan",
+    "title": "Census",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CENSUS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CENSUS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "Census",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_CMSMedicare.html",
     "href": "data_CMSMedicare.html",
-    "title": "MarketScan",
+    "title": "CMS Medicare",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CMSMedicare.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CMSMedicare.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "CMS Medicare",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_Marketscan.html",
@@ -93,30 +142,58 @@
   {
     "objectID": "data_USDA.html",
     "href": "data_USDA.html",
-    "title": "MarketScan",
+    "title": "USDA",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_USDA.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_USDA.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "USDA",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_OPTUM.html",
     "href": "data_OPTUM.html",
-    "title": "MarketScan",
+    "title": "OPTUM",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_OPTUM.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_OPTUM.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "OPTUM",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_CDC.html",
     "href": "data_CDC.html",
-    "title": "MarketScan",
+    "title": "CDC",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CDC.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CDC.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "CDC",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_IMLS.html",
     "href": "data_IMLS.html",
-    "title": "MarketScan",
+    "title": "IMLS",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_IMLS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_IMLS.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "IMLS",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "staff.html",
@@ -128,15 +205,29 @@
   {
     "objectID": "data_CMSMedicaid.html",
     "href": "data_CMSMedicaid.html",
-    "title": "MarketScan",
+    "title": "CMS Medicaid",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_CMSMedicaid.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CMSMedicaid.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "CMS Medicaid",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_ADVANCE.html",
     "href": "data_ADVANCE.html",
-    "title": "MarketScan",
+    "title": "ADVANCE",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "description"
+  },
+  {
+    "objectID": "data_ADVANCE.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ADVANCE.html#reach-out-to-chdsbu.edu-to-request-a-dataset-designated-by",
+    "title": "ADVANCE",
+    "section": "Reach out to chds@bu.edu to request a dataset designated by:",
+    "text": "Reach out to chds@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   }
 ]
