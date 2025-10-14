@@ -2,29 +2,24 @@
 title: "ACS"
 title-block-banner: banner2.png
 ---
-
-_description_
+The American Community Survey (ACS) is an annual, nationally representative survey that collects detailed information on residents' demographic characteristics, housing status, education, transportation habits, employment, and more. Approximately 3.5 million residents are sampled each year. Data are organized by topic-specific tables, cover a variety of geographies (from national to Census Block Group) and offered as 1-year or 5-year estimates.
 
 ---
 
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
-- **Years Available**: 
-- **Geography**: 
-- **Population**: 
-- **Documentation**:
-  - Tutorial from BU Libraries: 
+- **Years Available**: Annual estimates available 2005 onward; 5-year estimates available 2009 onward.
+- **Geography**: Nation, Region, Division, State, County, Census Tracts, Block Groups
+- **Population**: United States
+- **Documentation**: https://www.census.gov/programs-surveys/acs/geography-acs/reference-materials.html
 
 ### How to access
 
-Reach out to chds@bu.edu to request a dataset designated by:
-- 
-
-### Related Publications
-
-- 
-
+Reach out to chds@bu.edu to request a dataset. Please specify years and geographies needed.
+We can help consult on tables needed, or investigators may select tables from the following link: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html 
 
 ### Getting started
 
-- [Download Getting Started Guide]()
+- Handbooks for data users: https://www.census.gov/programs-surveys/acs/library/handbooks.html
+- Technical Documentation: https://www.census.gov/programs-surveys/acs/technical-documentation.html
+
