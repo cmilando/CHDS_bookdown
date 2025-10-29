@@ -5,7 +5,7 @@ project:
 website:
   title: Data Hub
   site-url: https://www.chadmilando.com/CHDS_bookdown/
-  repo-url: https://www.chadmilando.com/CHDS_bookdown/
+  repo-url: https://github.com/cmilando/CHDS_bookdown
   repo-branch: main
   repo-actions: [edit]
   page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://www.chadmilando.com/CHDS_bookdown/){target="_blank"}
