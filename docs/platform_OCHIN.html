@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>External Data Resources – Data Hub</title>
+<title>OCHIN – Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -106,7 +106,7 @@ background-size: cover;
 <span class="menu-text">Internal Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./data_external.html" aria-current="page"> 
+    <a class="nav-link" href="./data_external.html"> 
 <span class="menu-text">External Data</span></a>
   </li>  
   <li class="nav-item">
@@ -128,7 +128,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">External Data Resources</h1>
+      <h1 class="title">OCHIN</h1>
                       </div>
   </div>
     
@@ -152,148 +152,8 @@ background-size: cover;
 
 
 
-<p>These tables summarize external data platforms that provide secure access to clinical, claims, and population data for large-scale research. These resources often require special credentials or affiliations and offer opportunities for collaboration and advanced analytics.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Resource</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="./platform_VINCI.html"><strong>VA Informatics &amp; Computing Infrastructure (VINCI)</strong></a></td>
-<td>Secure VA-managed environment offering access to national EHR data for 9M+ veterans, including structured/unstructured data, pharmacy, imaging, and claims. Used in chronic disease and aging research.</td>
-</tr>
-<tr class="even">
-<td><a href="./platform_AllOfUs.html"><strong>All of Us Research Program</strong></a></td>
-<td>NIH initiative collecting EHR, biospecimen, survey, and wearable data from 1M+ participants. Focus on diversity, longitudinal tracking, and personalized medicine via a secure Researcher Workbench.</td>
-</tr>
-<tr class="odd">
-<td><a href="./platform_NIA.html"><strong>Acumen CMS Data Linkage (NIA)</strong></a></td>
-<td>Links Medicare claims to NIA-funded studies (e.g., HRS, NHATS). Enables longitudinal analysis of older adults’ health, spending, and outcomes. Managed by Acumen LLC with curated, linked datasets.</td>
-</tr>
-<tr class="even">
-<td><a href="./platform_OptumLabs.html"><strong>OptumLabs Data Warehouse</strong></a></td>
-<td>Large dataset of claims + EHR for 200M+ patients, used in real-world evidence research. Strong linkage, cost/utilization analysis; access is proprietary and costly.</td>
-</tr>
-<tr class="odd">
-<td><a href="./platform_TriNetX.html"><strong>TriNetX</strong></a></td>
-<td>Federated EHR network used for real-time cohort building, feasibility assessment, and clinical trial recruitment. De-identified data from 120+ global healthcare orgs.</td>
-</tr>
-<tr class="even">
-<td><a href="./platform_OCHIN.html"><strong>ADVANCE Clinical Research Network (OCHIN)</strong></a></td>
-<td>PCORnet network aggregating EHR and claims data from safety-net providers, focusing on underserved populations. Uses PCORnet CDM. Strong for health equity and primary care research.</td>
-</tr>
-<tr class="odd">
-<td><a href="./platform_i2b2.html"><strong>Informatics for Integrating Biology &amp; the Bedside (i2b2)</strong></a></td>
-<td>Open-source platform for EHR cohort discovery at academic centers. Provides aggregate patient counts for exploratory work. Customizable, but no direct access to patient-level data.</td>
-</tr>
-<tr class="even">
-<td><a href="./platform_N3C.html"><strong>National Clinical Cohort Collaborative (N3C)</strong></a></td>
-<td>NIH-sponsored data enclave with harmonized EHR from 80+ institutions. Initially focused on COVID-19, now expanded. Supports ML and advanced analytics with OMOP-standardized data.</td>
-</tr>
-<tr class="odd">
-<td><a href="./platform_OHDSI.html"><strong>OHDSI (Observational Health Data Sciences and Informatics)</strong></a></td>
-<td>Global open-science network using the OMOP data model to enable distributed observational research across EHR and claims data. Tools for comparative effectiveness and large-scale phenotyping.</td>
-</tr>
-</tbody>
-</table>
-<section id="additional-resources" class="level4">
-<h4 class="anchored" data-anchor-id="additional-resources">Additional resources:</h4>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Data Source</th>
-<th>Description</th>
-<th>Population/Coverage</th>
-<th>Access &amp; Restrictions</th>
-<th>Notes/Links</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>NHANES</strong></td>
-<td>National Health and Nutrition Examination Survey</td>
-<td>National, representative sample</td>
-<td>Public + restricted access tiers</td>
-<td><a href="https://www.cdc.gov/nchs/nhanes/index.htm">NHANES</a></td>
-</tr>
-<tr class="even">
-<td><strong>ACS (American Community Survey)</strong></td>
-<td>Ongoing demographic, housing, social, and economic data</td>
-<td>National, sub-county level (tract/block)</td>
-<td>Public</td>
-<td><a href="https://www.census.gov/programs-surveys/acs/">ACS Data</a></td>
-</tr>
-<tr class="odd">
-<td><strong>NSDUH</strong></td>
-<td>National Survey on Drug Use and Health</td>
-<td>US residents aged ≥12</td>
-<td>Public microdata via SAMHDA</td>
-<td><a href="https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health">NSDUH</a></td>
-</tr>
-<tr class="even">
-<td><strong>HRS</strong></td>
-<td>Health and Retirement Study</td>
-<td>US adults ≥50, longitudinal panel</td>
-<td>Public + restricted files</td>
-<td><a href="https://hrs.isr.umich.edu/data-products">HRS</a></td>
-</tr>
-<tr class="odd">
-<td><strong>All of Us</strong></td>
-<td>National cohort with EHRs, biospecimens, and surveys</td>
-<td>Diverse US cohort, oversampling minorities</td>
-<td>Controlled tier via Researcher Hub</td>
-<td><a href="https://databrowser.researchallofus.org">All of Us Data Browser</a></td>
-</tr>
-<tr class="even">
-<td><strong>BRFSS</strong></td>
-<td>Behavioral Risk Factor Surveillance System</td>
-<td>National; state-level behavioral data</td>
-<td>Public</td>
-<td><a href="https://www.cdc.gov/brfss/">BRFSS</a></td>
-</tr>
-<tr class="odd">
-<td><strong>MEPS</strong></td>
-<td>Medical Expenditure Panel Survey</td>
-<td>US households and medical providers</td>
-<td>Public</td>
-<td><a href="https://meps.ahrq.gov/mepsweb/">MEPS</a></td>
-</tr>
-<tr class="even">
-<td><strong>NSAF</strong></td>
-<td>National Survey of America’s Families (historical)</td>
-<td>Cross-sectional (1997–2002)</td>
-<td>Public (retired, archived)</td>
-<td>Used in Medicaid and CHIP policy research</td>
-</tr>
-<tr class="odd">
-<td><strong>Vital Statistics (NCHS)</strong></td>
-<td>Birth, death, fetal death, marriage, and divorce data</td>
-<td>National and state-level</td>
-<td>Public (some restricted use)</td>
-<td><a href="https://www.cdc.gov/nchs/nvss/">CDC Vital Stats</a></td>
-</tr>
-<tr class="even">
-<td><strong>SEER-Medicare</strong></td>
-<td>Linked cancer registry and Medicare claims data</td>
-<td>Cancer patients ≥65</td>
-<td>Application through NCI/ResDAC</td>
-<td><a href="https://healthcaredelivery.cancer.gov/seermedicare/">SEER-Medicare</a></td>
-</tr>
-<tr class="odd">
-<td><strong>HCUP</strong></td>
-<td>Healthcare Cost and Utilization Project</td>
-<td>Inpatient, ED, ambulatory visits</td>
-<td>State-specific, requires purchase</td>
-<td><a href="https://www.hcup-us.ahrq.gov/">HCUP</a></td>
-</tr>
-</tbody>
-</table>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -721,7 +581,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>CHDS Data Hub - <a href="https://www.chadmilando.com/CHDS_bookdown/" target="_blank">https://sites.bu.edu/CHDS-data-hub/</a></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/cmilando/CHDS_bookdown/edit/main/data_external.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/cmilando/CHDS_bookdown/edit/main/platform_OCHIN.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
