@@ -4,7 +4,7 @@ title-block-banner: banner2.png
 layout: "columns"
 ---
 
-Our staff bring expertise across data science, public health, EHR systems, and advanced analytics. Email us at [chds@bu.edu](mailto:chds@bu.edu) to get started!
+Our staff bring expertise across data science, public health, EHR systems, and advanced analytics. Email us at [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to get started!
 
 :::: {.columns}
 

@@ -1,0 +1,7 @@
+AuthType shibboleth
+
+< 2.4>
+ShibCompatWith24 on
+ShibRequestSetting requireSession true
+
+require shib-user ~ ^.+@bu.edu

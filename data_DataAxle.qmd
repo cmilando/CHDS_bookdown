@@ -17,7 +17,7 @@ Data Axle provides comprehensive business and consumer data that includes millio
 
 ### How to access
 
-Reach out to chds@bu.edu to request a dataset designated by:
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
 - Year
 - Business code (NAICS, SIC)
 - Zip code (optional)

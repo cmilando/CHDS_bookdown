@@ -15,7 +15,7 @@ The American Community Survey (ACS) is an annual, nationally representative surv
 
 ### How to access
 
-Reach out to chds@bu.edu to request a dataset. Please specify years and geographies needed.
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset. Please specify years and geographies needed.
 We can help consult on tables needed, or investigators may select tables from the following link: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html 
 
 ### Getting started

@@ -28,9 +28,9 @@ These 30-minute sessions are offered at no cost and are open to faculty and staf
 ::: {.column width="47%"}
 ### How It Works
 
-1. **Submit a Request**: Email us at <a href="mailto:someone@example.com" class="btn btn-primary" role="button" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease;"
+1. **Submit a Request**: Email us at <a href="mailto:bedacprp@bu.edu" class="btn btn-primary" role="button" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease;"
    onmouseover="this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)'"
-   onmouseout="this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)'">chds@bu.edu</a>
+   onmouseout="this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)'">BEDAC Proposals</a>
 2. **We’ll Schedule a Session**: A data expert will meet with you virtually or in person
 3. **Get Connected**: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond
 
