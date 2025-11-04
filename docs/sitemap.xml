@@ -2,134 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_sources.html</loc>
-    <lastmod>2025-10-08T18:28:24.304Z</lastmod>
+    <lastmod>2025-10-10T17:41:16.103Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/platform_NIA.html</loc>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSMedicaid.html</loc>
-    <lastmod>2025-10-29T18:24:45.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/staff.html</loc>
-    <lastmod>2025-10-08T18:20:03.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_IMLS.html</loc>
-    <lastmod>2025-10-29T18:24:45.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CDC.html</loc>
-    <lastmod>2025-10-29T18:24:45.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_HRSA.html</loc>
-    <lastmod>2025-10-29T18:24:45.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/platform_VINCI.html</loc>
-    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_USDA.html</loc>
-    <lastmod>2025-10-29T18:24:45.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_Marketscan.html</loc>
-    <lastmod>2025-10-08T18:25:52.219Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_infrastructure.html</loc>
-    <lastmod>2025-10-08T18:20:03.218Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_external.html</loc>
-    <lastmod>2025-10-08T18:20:03.218Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CENSUS.html</loc>
-    <lastmod>2025-10-29T18:24:45.530Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSMedicare.html</loc>
-    <lastmod>2025-10-29T18:24:45.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/platform_OptumLabs.html</loc>
-    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_EPIC.html</loc>
-    <lastmod>2025-10-29T18:24:45.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_ACS.html</loc>
-    <lastmod>2025-10-29T18:24:45.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_OPTUM.html</loc>
-    <lastmod>2025-10-29T18:24:45.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/platform_AllOfUs.html</loc>
-    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/index.html</loc>
-    <lastmod>2025-10-08T18:20:03.241Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_DataAxle.html</loc>
-    <lastmod>2025-10-29T18:24:45.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSTMSIS.html</loc>
-    <lastmod>2025-10-29T18:24:45.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CHIAAPCD.html</loc>
-    <lastmod>2025-10-29T18:24:45.530Z</lastmod>
-
-=======
     <lastmod>2025-10-10T18:01:45.075Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSMedicaid.html</loc>
-    <lastmod>2025-10-10T17:46:31.493Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/staff.html</loc>
-    <lastmod>2025-08-02T23:12:31.536Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.735Z</lastmod>
   </url>
   <url>
-=======
-    <lastmod>2025-10-10T18:01:45.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSMedicaid.html</loc>
-    <lastmod>2025-10-10T17:46:31.493Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.chadmilando.com/CHDS_bookdown/staff.html</loc>
-    <lastmod>2025-08-02T23:12:31.536Z</lastmod>
-  </url>
-  <url>
->>>>>>> Stashed changes
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_IMLS.html</loc>
-    <lastmod>2025-10-10T17:47:04.457Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CDC.html</loc>
-    <lastmod>2025-10-10T17:46:20.652Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_HRSA.html</loc>
-    <lastmod>2025-10-10T17:46:53.606Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/platform_VINCI.html</loc>
@@ -137,7 +34,7 @@
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_USDA.html</loc>
-    <lastmod>2025-10-10T17:47:48.748Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.734Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_Marketscan.html</loc>
@@ -153,11 +50,11 @@
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CENSUS.html</loc>
-    <lastmod>2025-10-10T17:46:24.449Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSMedicare.html</loc>
-    <lastmod>2025-10-10T17:46:35.265Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/platform_OptumLabs.html</loc>
@@ -165,15 +62,15 @@
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_EPIC.html</loc>
-    <lastmod>2025-10-10T17:46:40.905Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_ACS.html</loc>
-    <lastmod>2025-10-27T11:45:02.911Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_OPTUM.html</loc>
-    <lastmod>2025-10-10T17:47:20.974Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/platform_AllOfUs.html</loc>
@@ -181,26 +78,22 @@
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/index.html</loc>
-    <lastmod>2025-08-04T14:07:45.344Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.735Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_DataAxle.html</loc>
-    <lastmod>2025-10-10T17:41:16.102Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CMSTMSIS.html</loc>
-    <lastmod>2025-10-10T17:46:37.785Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_CHIAAPCD.html</loc>
-    <lastmod>2025-10-10T17:46:27.584Z</lastmod>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
   </url>
   <url>
     <loc>https://www.chadmilando.com/CHDS_bookdown/data_ADVANCE.html</loc>
-    <lastmod>2025-10-29T18:24:45.529Z</lastmod>
+    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
   </url>
 </urlset>
