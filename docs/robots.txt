@@ -1,1 +1,1 @@
-Sitemap: https://www.chadmilando.com/CHDS_bookdown/sitemap.xml
+Sitemap: https://sites.bu.edu/CHDS-data-hub/sitemap.xml
