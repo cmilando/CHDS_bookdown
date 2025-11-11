@@ -23,3 +23,16 @@ quarto render
 see here for more details: https://quarto.org/docs/publishing/github-pages.html
 
 
+
+.htaccess
+
+```
+AuthType shibboleth
+ 
+< 2.4>
+ShibCompatWith24 on
+ShibRequestSetting requireSession true
+ 
+require shib-user ~ ^.+@bu.edu
+```
+
