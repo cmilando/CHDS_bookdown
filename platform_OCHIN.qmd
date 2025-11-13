@@ -1,5 +1,30 @@
 ---
-title: "OCHIN"
+title: "ADVANCE / OCHIN"
 title-block-banner: banner2.png
 ---
 
+PCORnet-affiliated EHR and claims data from safety-net clinics (e.g., OCHIN). Strong equity lens; over 7M underserved patients. Less generalizable to broader populations
+
+---
+
+### Data Dictionary, Metadata, Years Available { .unnumbered}
+
+- **Years Available**: 
+- **Geography**: 
+- **Population**: 
+- **Documentation**:
+  - Tutorial from BU Libraries: 
+
+### How to access
+
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
+- 
+
+### Related Publications
+
+- 
+
+
+### Getting started
+
+- [Download Getting Started Guide]()

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Internal Data Sources – Data Hub</title>
+<title>Data Sources – Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Internal Data Sources</h1>
+      <h1 class="title">Data Sources</h1>
                       </div>
   </div>
     
@@ -158,6 +158,21 @@ background-size: cover;
 
 
 <p>This table summarizes commonly used data sources for population health, health services, and social science research at BU. It includes administrative claims, EHR, survey, and public health datasets.</p>
+<p>Some of the resources are publicly available (<span style="
+  display: inline-block;
+  background:#e7f1ff;   /* very light blue */
+  color:#0d6efd;        /* bootstrap blue */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.75em;
+"> public </span>), while others require special credentials (<span style="
+  display: inline-block;
+  background:#fde7e9;   /* very light red/pink */
+  color:#d63333;        /* strong red */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.75em;
+"> private </span>).</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -167,116 +182,98 @@ background-size: cover;
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="./data_DataAxle.html"><strong>Data Axle</strong></a></td>
+<td><a href="./data_DataAxle.html"><strong>Data Axle</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Business and consumer dataset covering 15M+ U.S. businesses and 300M consumers. Useful for market research and outreach. Proprietary; may lack public health relevance or timeliness.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_ACS.html"><strong>American Community Survey (ACS)</strong></a></td>
+<td><a href="./data_ACS.html"><strong>American Community Survey (ACS)</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Annual U.S. Census survey covering 3.5M households. Offers tract-level demographic, housing, and economic data. Key for policy and spatial analysis. Estimates have margins of error for small areas.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_CMSMedicaid.html"><strong>CMS Medicaid</strong></a></td>
+<td><a href="./data_CMSMedicaid.html"><strong>CMS Medicaid</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Claims and enrollment data for 70M+ Medicaid beneficiaries. Strong for analyzing access, costs, and care use in low-income populations. Limitations include state variability and reporting lags.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_CMSMedicare.html"><strong>CMS Medicare</strong></a></td>
+<td><a href="./data_CMSMedicare.html"><strong>CMS Medicare</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Claims and enrollment data for ~65M older or disabled Americans. Ideal for longitudinal studies of healthcare use in older adults. Lacks younger/uninsured populations and clinical granularity.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_CMSTMSIS.html"><strong>CMS T-MSIS</strong></a></td>
+<td><a href="./data_CMSTMSIS.html"><strong>CMS T-MSIS</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Standardized Medicaid/CHIP data from all states. Includes claims, enrollment, and provider data. Designed for national comparability. Challenging to use; varies in quality across states.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_CHIAAPCD.html"><strong>CHIA APCD</strong></a></td>
+<td><a href="./data_CHIAAPCD.html"><strong>CHIA APCD</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Massachusetts all-payer claims database covering ~80% of the population. Strong for health utilization and insurance analysis. Lacks uninsured individuals and comprehensive race/ethnicity data.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_Marketscan.html"><strong>MarketScan</strong></a></td>
+<td><a href="./data_Marketscan.html"><strong>MarketScan</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */ color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Proprietary claims database with 200M+ covered lives. Detailed data for commercially insured individuals. Excellent for utilization and cost studies, but not generalizable to public/uninsured populations.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_EPIC.html"><strong>EPIC/EHR</strong></a></td>
+<td><a href="./data_EPIC.html"><strong>EPIC/EHR</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */ color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Clinical EHR data from EPIC systems. Rich in labs, diagnoses, medications, and procedures. Granular and timely, but limited to care within EPIC networks and varies by institution.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_OPTUM.html"><strong>OptumLabs Data Warehouse</strong></a></td>
-<td>Longitudinal EHR and claims for 200M+ commercial and Medicare Advantage enrollees. Strong for real-world evidence studies. Proprietary; limited Medicaid and uninsured data.</td>
-</tr>
-<tr class="even">
-<td><a href="./data_ADVANCE.html"><strong>ADVANCE Data Warehouse</strong></a></td>
-<td>PCORnet-affiliated EHR and claims data from safety-net clinics (e.g., OCHIN). Strong equity lens; over 7M underserved patients. Less generalizable to broader populations.</td>
-</tr>
-<tr class="odd">
-<td><a href="./data_CDC.html"><strong>CDC Platforms (WONDER, mRFEI, PLACES, etc.)</strong></a></td>
+<td><a href="./data_CDC.html"><strong>CDC Platforms (WONDER, mRFEI, PLACES, etc.)</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Public health datasets including mortality (WONDER), food environment (mRFEI), local disease burden (PLACES), and life expectancy (USALEEP). Easy access, but often ecological with time lags.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_CENSUS.html"><strong>Census</strong></a></td>
+<td><a href="./data_CENSUS.html"><strong>Census</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Decennial population count (~330M U.S. residents). Provides full coverage demographic and housing data. Used for policy, planning, and allocation. Conducted every 10 years; limited variable detail.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_HRSA.html"><strong>HRSA</strong></a></td>
+<td><a href="./data_HRSA.html"><strong>HRSA</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Health access and provider shortage data, including HPSAs and FQHCs. Covers underserved regions and providers. Ideal for access-to-care studies; lacks clinical or patient-level detail.</td>
 </tr>
 <tr class="even">
-<td><a href="./data_IMLS.html"><strong>IMLS</strong></a></td>
+<td><a href="./data_IMLS.html"><strong>IMLS</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Library and museum usage and operations data from thousands of institutions. Useful for civic infrastructure research. No individual health data and few public health indicators.</td>
 </tr>
 <tr class="odd">
-<td><a href="./data_USDA.html"><strong>USDA (e.g., Food Access Atlas, SNAP data)</strong></a></td>
+<td><a href="./data_USDA.html"><strong>USDA (e.g., Food Access Atlas, SNAP data)</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Food environment, SNAP participation, and rurality measures. Common in food insecurity and rural health work. Data are ecological and updates can lag behind.</td>
 </tr>
-</tbody>
-</table>
-<p>These tables summarize external data platforms that provide secure access to clinical, claims, and population data for large-scale research. These resources often require special credentials or affiliations and offer opportunities for collaboration and advanced analytics.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Resource</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="./platform_VINCI.html"><strong>VA Informatics &amp; Computing Infrastructure (VINCI)</strong></a></td>
+<tr class="even">
+<td><a href="./platform_VINCI.html"><strong>VA Informatics &amp; Computing Infrastructure (VINCI)</strong></a> <span style="display: inline-block; background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Secure VA-managed environment offering access to national EHR data for 9M+ veterans, including structured/unstructured data, pharmacy, imaging, and claims. Used in chronic disease and aging research.</td>
 </tr>
-<tr class="even">
-<td><a href="./platform_AllOfUs.html"><strong>All of Us Research Program</strong></a></td>
+<tr class="odd">
+<td><a href="./platform_AllOfUs.html"><strong>All of Us Research Program</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>NIH initiative collecting EHR, biospecimen, survey, and wearable data from 1M+ participants. Focus on diversity, longitudinal tracking, and personalized medicine via a secure Researcher Workbench.</td>
 </tr>
-<tr class="odd">
-<td><a href="./platform_NIA.html"><strong>Acumen CMS Data Linkage (NIA)</strong></a></td>
+<tr class="even">
+<td><a href="./platform_NIA.html"><strong>Acumen CMS Data Linkage (NIA)</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */ padding: 2px 6px;border-radius: 3px;font-size: 0.75em;"> private</span></td>
 <td>Links Medicare claims to NIA-funded studies (e.g., HRS, NHATS). Enables longitudinal analysis of older adults’ health, spending, and outcomes. Managed by Acumen LLC with curated, linked datasets.</td>
 </tr>
-<tr class="even">
-<td><a href="./platform_OptumLabs.html"><strong>OptumLabs Data Warehouse</strong></a></td>
+<tr class="odd">
+<td><a href="./platform_OptumLabs.html"><strong>OptumLabs Data Warehouse</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;"> private</span></td>
 <td>Large dataset of claims + EHR for 200M+ patients, used in real-world evidence research. Strong linkage, cost/utilization analysis; access is proprietary and costly.</td>
 </tr>
-<tr class="odd">
-<td><a href="./platform_TriNetX.html"><strong>TriNetX</strong></a></td>
+<tr class="even">
+<td><a href="./platform_TriNetX.html"><strong>TriNetX</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Federated EHR network used for real-time cohort building, feasibility assessment, and clinical trial recruitment. De-identified data from 120+ global healthcare orgs.</td>
 </tr>
-<tr class="even">
-<td><a href="./platform_OCHIN.html"><strong>ADVANCE Clinical Research Network (OCHIN)</strong></a></td>
+<tr class="odd">
+<td><a href="./platform_OCHIN.html"><strong>ADVANCE Clinical Research Network (OCHIN)</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>PCORnet network aggregating EHR and claims data from safety-net providers, focusing on underserved populations. Uses PCORnet CDM. Strong for health equity and primary care research.</td>
 </tr>
-<tr class="odd">
-<td><a href="./platform_i2b2.html"><strong>Informatics for Integrating Biology &amp; the Bedside (i2b2)</strong></a></td>
+<tr class="even">
+<td><a href="./platform_i2b2.html"><strong>Informatics for Integrating Biology &amp; the Bedside (i2b2)</strong></a> <span style="display: inline-block; background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Open-source platform for EHR cohort discovery at academic centers. Provides aggregate patient counts for exploratory work. Customizable, but no direct access to patient-level data.</td>
 </tr>
-<tr class="even">
-<td><a href="./platform_N3C.html"><strong>National Clinical Cohort Collaborative (N3C)</strong></a></td>
+<tr class="odd">
+<td><a href="./platform_N3C.html"><strong>National Clinical Cohort Collaborative (N3C)</strong></a> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>NIH-sponsored data enclave with harmonized EHR from 80+ institutions. Initially focused on COVID-19, now expanded. Supports ML and advanced analytics with OMOP-standardized data.</td>
 </tr>
-<tr class="odd">
-<td><a href="./platform_OHDSI.html"><strong>OHDSI (Observational Health Data Sciences and Informatics)</strong></a></td>
+<tr class="even">
+<td><a href="./platform_OHDSI.html"><strong>OHDSI (Observational Health Data Sciences and Informatics)</strong></a> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Global open-science network using the OMOP data model to enable distributed observational research across EHR and claims data. Tools for comparative effectiveness and large-scale phenotyping.</td>
 </tr>
 </tbody>
 </table>
-<section id="additional-resources" class="level4">
-<h4 class="anchored" data-anchor-id="additional-resources">Additional resources:</h4>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources:</h2>
+<p>While not housed at BU, these additional resources may be useful in answering specific resource questions, and DataHub team members can provide assistance in working with these data.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -289,77 +286,56 @@ background-size: cover;
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>NHANES</strong></td>
+<td><strong>NHANES</strong> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;"> public</span></td>
 <td>National Health and Nutrition Examination Survey</td>
 <td>National, representative sample</td>
 <td>Public + restricted access tiers</td>
 <td><a href="https://www.cdc.gov/nchs/nhanes/index.htm">NHANES</a></td>
 </tr>
 <tr class="even">
-<td><strong>ACS (American Community Survey)</strong></td>
-<td>Ongoing demographic, housing, social, and economic data</td>
-<td>National, sub-county level (tract/block)</td>
-<td>Public</td>
-<td><a href="https://www.census.gov/programs-surveys/acs/">ACS Data</a></td>
-</tr>
-<tr class="odd">
-<td><strong>NSDUH</strong></td>
+<td><strong>NSDUH</strong> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>National Survey on Drug Use and Health</td>
 <td>US residents aged ≥12</td>
 <td>Public microdata via SAMHDA</td>
 <td><a href="https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health">NSDUH</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>HRS</strong></td>
 <td>Health and Retirement Study</td>
 <td>US adults ≥50, longitudinal panel</td>
 <td>Public + restricted files</td>
 <td><a href="https://hrs.isr.umich.edu/data-products">HRS</a></td>
 </tr>
-<tr class="odd">
-<td><strong>All of Us</strong></td>
-<td>National cohort with EHRs, biospecimens, and surveys</td>
-<td>Diverse US cohort, oversampling minorities</td>
-<td>Controlled tier via Researcher Hub</td>
-<td><a href="https://databrowser.researchallofus.org">All of Us Data Browser</a></td>
-</tr>
 <tr class="even">
-<td><strong>BRFSS</strong></td>
+<td><strong>BRFSS</strong> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Behavioral Risk Factor Surveillance System</td>
 <td>National; state-level behavioral data</td>
 <td>Public</td>
 <td><a href="https://www.cdc.gov/brfss/">BRFSS</a></td>
 </tr>
 <tr class="odd">
-<td><strong>MEPS</strong></td>
+<td><strong>MEPS</strong> <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span></td>
 <td>Medical Expenditure Panel Survey</td>
 <td>US households and medical providers</td>
 <td>Public</td>
 <td><a href="https://meps.ahrq.gov/mepsweb/">MEPS</a></td>
 </tr>
 <tr class="even">
-<td><strong>NSAF</strong></td>
-<td>National Survey of America’s Families (historical)</td>
-<td>Cross-sectional (1997–2002)</td>
-<td>Public (retired, archived)</td>
-<td>Used in Medicaid and CHIP policy research</td>
-</tr>
-<tr class="odd">
-<td><strong>Vital Statistics (NCHS)</strong></td>
+<td><strong>Vital Statistics (NCHS)</strong> <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Birth, death, fetal death, marriage, and divorce data</td>
 <td>National and state-level</td>
 <td>Public (some restricted use)</td>
 <td><a href="https://www.cdc.gov/nchs/nvss/">CDC Vital Stats</a></td>
 </tr>
-<tr class="even">
-<td><strong>SEER-Medicare</strong></td>
+<tr class="odd">
+<td><strong>SEER-Medicare</strong> <span style="display: inline-block; background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Linked cancer registry and Medicare claims data</td>
 <td>Cancer patients ≥65</td>
 <td>Application through NCI/ResDAC</td>
 <td><a href="https://healthcaredelivery.cancer.gov/seermedicare/">SEER-Medicare</a></td>
 </tr>
-<tr class="odd">
-<td><strong>HCUP</strong></td>
+<tr class="even">
+<td><strong>HCUP</strong> <span style="display: inline-block; background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span></td>
 <td>Healthcare Cost and Utilization Project</td>
 <td>Inpatient, ED, ambulatory visits</td>
 <td>State-specific, requires purchase</td>
