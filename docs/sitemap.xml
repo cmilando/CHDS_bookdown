@@ -2,118 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_sources.html</loc>
-    <lastmod>2025-10-10T17:41:16.103Z</lastmod>
+    <lastmod>2025-11-13T19:20:23.290Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_NIA.html</loc>
-    <lastmod>2025-10-10T18:01:45.075Z</lastmod>
+    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CMSMedicaid.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_OCHIN.html</loc>
-    <lastmod>2025-11-04T17:31:27.850Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.764Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/staff.html</loc>
-    <lastmod>2025-11-04T17:11:32.735Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.765Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_TriNetX.html</loc>
-    <lastmod>2025-11-04T17:31:06.206Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.764Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/index.html</loc>
-    <lastmod>2025-11-10T14:42:07.120Z</lastmod>
+    <lastmod>2025-11-13T19:21:46.920Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_AllOfUs.html</loc>
-    <lastmod>2025-10-10T18:01:40.516Z</lastmod>
+    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_i2b2.html</loc>
-    <lastmod>2025-11-04T17:32:00.649Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.765Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_VINCI.html</loc>
-    <lastmod>2025-10-10T18:02:29.727Z</lastmod>
+    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_ACS.html</loc>
-    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.748Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_EPIC.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.750Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_OptumLabs.html</loc>
-    <lastmod>2025-10-10T18:02:23.620Z</lastmod>
+    <lastmod>2025-10-29T18:24:45.541Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CMSMedicare.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CENSUS.html</loc>
-    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sites.bu.edu/CHDS-data-hub/data_external.html</loc>
-    <lastmod>2025-11-04T17:33:46.062Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_infrastructure.html</loc>
-    <lastmod>2025-08-02T17:39:00.991Z</lastmod>
+    <lastmod>2025-11-13T19:21:44.911Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_Marketscan.html</loc>
-    <lastmod>2025-08-02T16:42:43.958Z</lastmod>
+    <lastmod>2025-10-08T18:25:52.219Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_USDA.html</loc>
-    <lastmod>2025-11-04T17:11:32.734Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.750Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_OHDSI.html</loc>
-    <lastmod>2025-11-04T17:33:44.341Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.764Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_OPTUM.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.750Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_HRSA.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.750Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CDC.html</loc>
-    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.748Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_IMLS.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.750Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_DataAxle.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CMSTMSIS.html</loc>
-    <lastmod>2025-11-04T17:11:32.733Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/platform_N3C.html</loc>
-    <lastmod>2025-11-04T17:32:41.713Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.764Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_CHIAAPCD.html</loc>
-    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.749Z</lastmod>
   </url>
   <url>
     <loc>https://sites.bu.edu/CHDS-data-hub/data_ADVANCE.html</loc>
-    <lastmod>2025-11-04T17:11:32.732Z</lastmod>
+    <lastmod>2025-11-13T14:14:13.748Z</lastmod>
   </url>
 </urlset>

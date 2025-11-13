@@ -15,10 +15,8 @@ website:
     left:
       - text: Home
         file: index.qmd
-      - text: Internal Data
+      - text: Data Sources
         file: data_sources.qmd
-      - text: External Data
-        file: data_external.qmd
       - text: Research Environments
         file: data_infrastructure.qmd
       - text: Staff
