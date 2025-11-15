@@ -8,7 +8,44 @@ Our staff bring expertise across data science, public health, EHR systems, and a
 
 :::: {.columns}
 
-::: {.column width="30%"}
+::: {.column width="23%"}
+```{=html}
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="Joseph-Palmisano.jpg" class="card-img-top" alt="Joseph Palmisano">
+    <div class="card-body">
+      <h5 class="card-title">Joseph Palmisano</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Director, Data Hub</h6>
+      <p class="card-text">Joseph's team at the Biostatistics and Epidemiology Data Analytics Center (BEDAC) specializes in data management, database and web programming, and sophisticated statistical analysis in support of a wide range of research initiatives.</p>
+    </div>
+  </div>
+</div>
+```
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="23%"}
+```{=html}
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="Emily-Sisson.png" class="card-img-top" alt="Emily Sisson">
+    <div class="card-body">
+      <h5 class="card-title">Emily Sisson</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Director, Data Hub</h6>
+      <p class="card-text">Emily's leadership at the Biostatistics and Epidemiology Data Analytics Center (BEDAC), involves leading diverse teams and optimizing research operations andstrategic growth.</p>
+    </div>
+  </div>
+</div>
+```
+:::
+
+::: {.column width="2%"}
+:::
+
+
+::: {.column width="23%"}
 ```{=html}
 <div class="col-md-4 mb-4">
   <div class="card h-100">
@@ -22,9 +59,11 @@ Our staff bring expertise across data science, public health, EHR systems, and a
 </div>
 ```
 :::
-::: {.column width="5%"}
+
+::: {.column width="2%"}
 :::
-::: {.column width="30%"}
+
+::: {.column width="23%"}
 ```{=html}
 <div class="col-md-4 mb-4">
   <div class="card h-100">
