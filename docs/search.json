@@ -28,23 +28,37 @@
     "text": "Additional resources:\nWhile not housed at BU, these additional resources may be useful in answering specific resource questions, and DataHub team members can provide assistance in working with these data.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nNHANES  public\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nNSDUH public\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nBRFSS public\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS public\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nVital Statistics (NCHS) private\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare private\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP private\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP"
   },
   {
-    "objectID": "data_infrastructure.html",
-    "href": "data_infrastructure.html",
-    "title": "Research Environments",
+    "objectID": "data_Marketscan.html",
+    "href": "data_Marketscan.html",
+    "title": "MarketScan",
     "section": "",
-    "text": "This table summarizes key computing and data hosting environments available to BU-affiliated researchers working with sensitive, large-scale, or high-complexity data.\n\n\n\n\n\n\n\n\n\nResource\nDescription\nKey Features\nLimitations\n\n\n\n\nBU Shared Computing Cluster (SCC)\nHigh-performance computing (HPC) system supporting large-scale data processing and modeling\nThousands of CPU cores, GPU nodes, parallel computing, genomics/claims analysis support\nSteep learning curve for non-technical users; some limitations on sensitive data storage\n\n\nBMC CDW-R (BMC EHR)\nDe-identified and limited datasets from BMC’s Epic EHR, optimized for research with underserved populations\nClinical, demographic, encounter-level data; equity-focused use cases\nTypical EHR issues (e.g., missing data, variable coding); may not generalize beyond BMC patients\n\n\nBEDAC Secure Research Cloud (SRC)\nHIPAA-compliant, access-controlled cloud for working with sensitive health data\nSecure environment for EHR/claims data; tools include R, SAS, Python, SQL\nRequires IRB & DUA approvals; onboarding time; limited to approved users"
+    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
   },
   {
-    "objectID": "data_HRSA.html",
-    "href": "data_HRSA.html",
-    "title": "HRSA",
+    "objectID": "data_IMLS.html",
+    "href": "data_IMLS.html",
+    "title": "IMLS",
     "section": "",
     "text": "description"
   },
   {
-    "objectID": "data_HRSA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_HRSA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "HRSA",
+    "objectID": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "IMLS",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_FHS.html",
+    "href": "data_FHS.html",
+    "title": "Framingham Heart Study (FHS)",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "Framingham Heart Study (FHS)",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
@@ -98,11 +112,53 @@
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
+    "objectID": "data_ARCH.html",
+    "href": "data_ARCH.html",
+    "title": "ARCH",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "ARCH",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
     "objectID": "data_ACS.html",
     "href": "data_ACS.html",
     "title": "ACS",
     "section": "",
     "text": "The American Community Survey (ACS) is an annual, nationally representative survey that collects detailed information on residents’ demographic characteristics, housing status, education, transportation habits, employment, and more. Approximately 3.5 million residents are sampled each year. Data are organized by topic-specific tables, cover a variety of geographies (from national to Census Block Group) and offered as 1-year or 5-year estimates.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: Annual estimates available 2005 onward; 5-year estimates available 2009 onward.\nGeography: Nation, Region, Division, State, County, Census Tracts, Block Groups\nPopulation: United States\nDocumentation: https://www.census.gov/programs-surveys/acs/geography-acs/reference-materials.html\n\n\n\nHow to access\nReach out to bedacprp@bu.edu to request a dataset. Please specify years and geographies needed. We can help consult on tables needed, or investigators may select tables from the following link: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html\n\n\nGetting started\n\nHandbooks for data users: https://www.census.gov/programs-surveys/acs/library/handbooks.html\nTechnical Documentation: https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
+    "objectID": "data_ADRC.html",
+    "href": "data_ADRC.html",
+    "title": "ARCH",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "ARCH",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_BBRAIN.html",
+    "href": "data_BBRAIN.html",
+    "title": "BBRAIN",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_BBRAIN.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_BBRAIN.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "BBRAIN",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_CENSUS.html",
@@ -161,25 +217,39 @@
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
-    "objectID": "data_IMLS.html",
-    "href": "data_IMLS.html",
-    "title": "IMLS",
+    "objectID": "data_HRSA.html",
+    "href": "data_HRSA.html",
+    "title": "HRSA",
     "section": "",
     "text": "description"
   },
   {
-    "objectID": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "IMLS",
+    "objectID": "data_HRSA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_HRSA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "HRSA",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
-    "objectID": "data_Marketscan.html",
-    "href": "data_Marketscan.html",
-    "title": "MarketScan",
+    "objectID": "data_infrastructure.html",
+    "href": "data_infrastructure.html",
+    "title": "Research Environments",
     "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+    "text": "This table summarizes key computing and data hosting environments available to BU-affiliated researchers working with sensitive, large-scale, or high-complexity data.\n\n\n\n\n\n\n\n\n\nResource\nDescription\nKey Features\nLimitations\n\n\n\n\nBU Shared Computing Cluster (SCC)\nHigh-performance computing (HPC) system supporting large-scale data processing and modeling\nThousands of CPU cores, GPU nodes, parallel computing, genomics/claims analysis support\nSteep learning curve for non-technical users; some limitations on sensitive data storage\n\n\nBMC CDW-R (BMC EHR)\nDe-identified and limited datasets from BMC’s Epic EHR, optimized for research with underserved populations\nClinical, demographic, encounter-level data; equity-focused use cases\nTypical EHR issues (e.g., missing data, variable coding); may not generalize beyond BMC patients\n\n\nBEDAC Secure Research Cloud (SRC)\nHIPAA-compliant, access-controlled cloud for working with sensitive health data\nSecure environment for EHR/claims data; tools include R, SAS, Python, SQL\nRequires IRB & DUA approvals; onboarding time; limited to approved users"
+  },
+  {
+    "objectID": "data_MWCCS.html",
+    "href": "data_MWCCS.html",
+    "title": "MWCCS",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "MWCCS",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
     "objectID": "data_USDA.html",
