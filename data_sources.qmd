@@ -3,6 +3,7 @@ title: "Data Sources"
 title-block-banner: banner2.png
 ---
 
+<!-- NOTE: DO NOT EDIT THIS PAGE MANUALLY !!!! SEE 00_create_data_sources.R -->
 
 This table summarizes commonly used data sources for population health, health services, and social science research at BU. It includes administrative claims, EHR, survey, and public health datasets.
 

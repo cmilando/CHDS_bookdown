@@ -27,6 +27,8 @@ format:
     theme:
       - cosmo
       - markdown-style.scss
+    grid:
+        body-width: 1000px
 
 bibliography: references.bib
 csl: nature.csl
