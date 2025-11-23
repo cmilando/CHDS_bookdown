@@ -9,9 +9,10 @@ MarketScan is a proprietary claims dataset that provides longitudinal patient-le
 
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
-- **Years Available**:  
-- **Geography**: 
-- **Population**: 
+- **Years Available**:  2006-2023
+- **Population**: Insured individuals in the U.S. covered by employer-sponsored private health insurance plans, including active employees, early retirees, COBRA continuers, and dependents.  
+- **Geography**:  State-level information across U.S.
+- **Unit of analysis**:  Medical claim.
 - **Documentation**:
   - [Download Data Dictionary (PDF)](pdfs/Marketscan/Data_Dictionary.pdf)
   - [Download User Guide (PDF)](pdfs/Marketscan/User_Guide.pdf)
@@ -23,20 +24,15 @@ Access to MarketScan data is governed by a Data Use Agreement (DUA) between Truv
 _**Sample abstract for DUA request**_:
 > This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.
 
-### Current and Past Projects Using MarketScan
+### Common Use Cases 
+- Health services research analyzing healthcare utilization, costs, and outcomes.
+- Epidemiology and disease burden studies in privately insured populations.
+- Outcomes research involving chronic conditions, surgical procedures, and preventive services
 
-- **Project 1**  
-  Author
-  Date:
-
-- **Project 1**  
-  Author
-  Date:
-  [Final Report (PDF)](link-to-report)
 
 ### Related Publications
 
-- 
+- Podolsky MI, Raquib R, Shafer PR, Hempstead K, Ellis RP, Stokes AC. Factors Associated With Semaglutide Initiation Among Adults With Obesity. JAMA Netw Open. 2025 Jan 2;8(1):e2455222. doi: 10.1001/jamanetworkopen.2024.55222. PMID: 39836425; PMCID: PMC11751746.
 
 
 ### Code Snippets to Get Started
