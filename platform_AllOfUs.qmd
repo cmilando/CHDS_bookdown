@@ -1,5 +1,39 @@
 ---
-title: "All of Us"
+title: "NIH All of Us Research Program"
 title-block-banner: banner2.png
 ---
+
+All of Us is a comprehensive diverse health database that collects comprehensive genetic, environmental, and lifestyle information from one million or more U.S. participants to advance precision medicine. The target sample includes 1 million or more US participants designed to reflect the diversity of the U.S. population. Study design focuses on groups historically underrepresented in biomedical research. There are currently over 600,000 participants enrolled who provide valuable data across several domains: surveys, electronic health records, physical measurements, wearables, genomics, and biosamples. This project emphasizes equitable research practices, collaboration and transparency across the research process. 
+
+---
+
+### Data Dictionary, Metadata, Years Available { .unnumbered}
+
+- **Years Available**:  Initiated in 2018; current release covers 2019-2023.
+- **Population**: A diverse sample of individuals, with emphasisis on those historically underrepresented in biomedical research.
+- **Geography**:  United States, down to 3 digit zip code.
+- **Unit of analysis**:  Individual
+- **Documentation**:
+  - Visit the All of Us Data Browser: https://databrowser.researchallofus.org/
+  - Learn more about the All of Us Research Hub: https://www.researchallofus.org/about-the-research-hub/
+
+### Data Use Agreement
+- Researchers at BU have access to the Controlled Tier, which includes genomic information.
+- All Research Workbench users must complete All of Us registration and training: https://www.researchallofus.org/register/
+
+### Common Use Cases 
+- Precision medicine research integrating genomics, clinical data, and lifestyle information.
+- Population health studies focusing on diverse groups and health disparities.
+Epidemiological investigations of specific diseases or conditions.
+- For more information, browse the research project directory: https://www.researchallofus.org/research-project-directory/
+
+
+
+### Related Publications
+
+- Explore the All of Us Publication Directory: https://www.researchallofus.org/publication-directory/
+
+
+
+ 
 
