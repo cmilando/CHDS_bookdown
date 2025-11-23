@@ -10,7 +10,7 @@ All of Us is a comprehensive diverse health database that collects comprehensive
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
 - **Years Available**:  Initiated in 2018; current release covers 2019-2023.
-- **Population**: A diverse sample of individuals, with emphasisis on those historically underrepresented in biomedical research.
+- **Population**: A diverse sample of individuals, with emphasis on those historically underrepresented in biomedical research.
 - **Geography**:  United States, down to 3 digit zip code.
 - **Unit of analysis**:  Individual
 - **Documentation**:
