@@ -58,6 +58,10 @@ while others require special credentials (<span style="
 | [**URBAN ARCH**](data_ARCH.qmd) <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span> | Cohort | The URBAN ARCH consortium includes three cohorts of people living with HIV in Mbarara, Uganda; St. Petersburg, Russia; and Boston, Massachusetts. |
 | [**USDA (e.g., Food Access Atlas, SNAP data)**](data_USDA.qmd) <span style="display: inline-block;background:#e7f1ff;   /* very light blue */color:#0d6efd;        /* bootstrap blue */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">public</span> | National survey | Food environment, SNAP participation, and rurality measures. Common in food insecurity and rural health work. Data are ecological and updates can lag behind. |
 | [**VA Informatics & Computing Infrastructure (VINCI)**](platform_VINCI.qmd) <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span> | Administrative/claims | Secure VA-managed environment offering access to national EHR data for 9M+ veterans, including structured/unstructured data, pharmacy, imaging, and claims. Used in chronic disease and aging research. |
+
+
+: Data Sources {tbl-colwidths="[25, 25, 50]"}
+
 <br>
 <br>
 

@@ -62,8 +62,11 @@ all_rows_l <- lapply(1:nrow(data_sources), create_row)
 all_rows <- do.call(c, all_rows_l)
 
 
-xtail <-
-  '<br>
+xtail <-'
+
+: Data Sources {tbl-colwidths="[25, 25, 50]"}
+
+<br>
 <br>
 
 ## Additional resources:
