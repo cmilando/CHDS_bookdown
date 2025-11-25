@@ -3,49 +3,27 @@ title: "URBAN ARCH"
 title-block-banner: banner2.png
 ---
 
-URBAN ARCH maintains a website that has a page listing all of the available data – here:  https://sites.bu.edu/urbanarch/resources/data-sample-repository/
+URBAN ARCH maintains a [data repository[(https://sites.bu.edu/urbanarch/resources/data-sample-repository/) that provides detailed information on all available datasets. The full catalog is accessible through the project’s website.
 
-The years available are 2012-2022.
+Years Available
+2012–2022
 
-Population is persons with HIV in Mbarara, Uganda; St Petersburg, Russia; and Boston, Massachusetts and the main research focus was on alcohol and substance use and their impact on HIV disease progression, among other outcomes.
+Population
+The URBAN ARCH consortium includes three cohorts of people living with HIV in Mbarara, Uganda; St. Petersburg, Russia; and Boston, Massachusetts. Research across these sites focuses primarily on alcohol and substance use and their effects on HIV disease progression, along with a range of other clinical and behavioral outcomes.
 
-It’s restricted access 
+Access
+The repository is restricted-access. Investigators must request permission to obtain datasets.
 
-Limitations/quirks:  The three cohorts (Uganda, Russia, US) have a lot of differences – many investigators work within only one cohort although some have done cross-cohort analyses.  
+Notes and Considerations
 
-Hard to justify combining them – for example, there is almost no drug use at all in Uganda, and the Russia cohort is almost entirely IV drug users. 
+The three cohorts differ substantially in demographic and behavioral characteristics, and many investigators focus on analyses within a single cohort.
 
-Many of the studies with available data are clinical trials.
+Cross-cohort analyses are possible but often challenging to justify. For example, substance-use patterns differ dramatically across sites (e.g., minimal drug use in Uganda versus predominantly injection-drug use in the Russia cohort).
 
- 
-
-It’s been so long since I worked with i2b2 that I hesitate to provide any additional information.  Honestly, I have forgotten most of the details of working with that data.
-
- 
-
-And I worked on one project with MACS/WIHS so I have some experience with the data structure and layout, but again, don’t feel like I can provide a lot of specifics.  They have a website with lots of info:  https://statepi.jhsph.edu/mwccs/
-
-Danielle Haley might also be a good resource for info about MACS/WIHS.
----
-
-### Data Dictionary, Metadata, Years Available { .unnumbered}
-
-- **Years Available**:
-- **Geography**:
-- **Population**:
-- **Documentation**:
-- Tutorial from BU Libraries:
+Several available datasets originate from clinical trials.
 
 ### How to access
 
-Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
--
-
-### Related Publications
-
--
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) 
 
 
-### Getting started
-
-- [Download Getting Started Guide]()
