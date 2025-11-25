@@ -3,28 +3,29 @@ title: "ARCH"
 title-block-banner: banner2.png
 ---
 
-_description_
+URBAN ARCH Data Overview
 
----
+URBAN ARCH maintains a [data repository[(https://sites.bu.edu/urbanarch/resources/data-sample-repository/) that provides detailed information on all available datasets. The full catalog is accessible through the project’s website.
 
-### Data Dictionary, Metadata, Years Available { .unnumbered}
+Years Available
+2012–2022
 
-- **Years Available**:
-- **Geography**:
-- **Population**:
-- **Documentation**:
-- Tutorial from BU Libraries:
+Population
+The URBAN ARCH consortium includes three cohorts of people living with HIV in Mbarara, Uganda; St. Petersburg, Russia; and Boston, Massachusetts. Research across these sites focuses primarily on alcohol and substance use and their effects on HIV disease progression, along with a range of other clinical and behavioral outcomes.
+
+Access
+The repository is restricted-access. Investigators must request permission to obtain datasets.
+
+Notes and Considerations
+
+The three cohorts differ substantially in demographic and behavioral characteristics, and many investigators focus on analyses within a single cohort.
+
+Cross-cohort analyses are possible but often challenging to justify. For example, substance-use patterns differ dramatically across sites (e.g., minimal drug use in Uganda versus predominantly injection-drug use in the Russia cohort).
+
+Several available datasets originate from clinical trials.
 
 ### How to access
 
-Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
--
-
-### Related Publications
-
--
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) 
 
 
-### Getting started
-
-- [Download Getting Started Guide]()
