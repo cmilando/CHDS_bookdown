@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "Staff",
-    "section": "",
-    "text": "Our staff bring expertise across data science, public health, EHR systems, and advanced analytics. Email us at bedacprp@bu.edu to get started!\n\n\n\n  \n    \n    \n      Joseph Palmisano\n      Director, Data Hub\n      Joseph's team at the Biostatistics and Epidemiology Data Analytics Center (BEDAC) specializes in data management, database and web programming, and sophisticated statistical analysis in support of a wide range of research initiatives.\n    \n  \n\n\n\n\n\n  \n    \n    \n      Emily Sisson\n      Director, Data Hub\n      Emily's leadership at the Biostatistics and Epidemiology Data Analytics Center (BEDAC), involves leading diverse teams and optimizing research operations andstrategic growth.\n    \n  \n\n\n\n\n\n  \n    \n    \n      Dr. Nina Cesare\n      Assisant Director, Data Hub\n      Nina's work bridges data science and sociology, using digital and spatial data to explore social determinants of health and the methodological challenges of modern social research\n    \n  \n\n\n\n\n\n  \n    \n    \n      Dr. Chad Milando\n      Assistant Director, Data Hub\n      Chad supports faculty with data sourcing and analytic strategy. His research focuses on environmental health and spatiotemporal modeling."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "The Center for Health Data Sciences Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.\n\n\n\n\nWhat We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources.\nLearn about research environments available at BU\nProvide feedback on research design\nFacilitate collaboration across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.\n\n\n\n\n\nHow It Works\n\nSubmit a Request: Email us at BEDAC Proposals\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends and continuously improve service.\n\n\n\n\n\n\nTopics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\n\n\n\n\n\nStrategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\n\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university."
-  },
-  {
     "objectID": "data_sources.html",
     "href": "data_sources.html",
     "title": "Data Sources",
@@ -28,62 +14,6 @@
     "text": "Additional resources:\nWhile not housed at BU, these additional resources may be useful in answering specific resource questions, and DataHub team members can provide assistance in working with these data.\n\n\n\nData Source\nDescription\nPopulation/Coverage\nAccess & Restrictions\nNotes/Links\n\n\n\n\nNHANES  public\nNational Health and Nutrition Examination Survey\nNational, representative sample\nPublic + restricted access tiers\nNHANES\n\n\nNSDUH public\nNational Survey on Drug Use and Health\nUS residents aged ≥12\nPublic microdata via SAMHDA\nNSDUH\n\n\nHRS\nHealth and Retirement Study\nUS adults ≥50, longitudinal panel\nPublic + restricted files\nHRS\n\n\nBRFSS public\nBehavioral Risk Factor Surveillance System\nNational; state-level behavioral data\nPublic\nBRFSS\n\n\nMEPS public\nMedical Expenditure Panel Survey\nUS households and medical providers\nPublic\nMEPS\n\n\nVital Statistics (NCHS) private\nBirth, death, fetal death, marriage, and divorce data\nNational and state-level\nPublic (some restricted use)\nCDC Vital Stats\n\n\nSEER-Medicare private\nLinked cancer registry and Medicare claims data\nCancer patients ≥65\nApplication through NCI/ResDAC\nSEER-Medicare\n\n\nHCUP private\nHealthcare Cost and Utilization Project\nInpatient, ED, ambulatory visits\nState-specific, requires purchase\nHCUP"
   },
   {
-    "objectID": "data_Marketscan.html",
-    "href": "data_Marketscan.html",
-    "title": "MarketScan",
-    "section": "",
-    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available:\n\nGeography:\nPopulation:\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCurrent and Past Projects Using MarketScan\n\nProject 1\nAuthor Date:\nProject 1\nAuthor Date: Final Report (PDF)\n\n\n\nRelated Publications\n\n\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
-  },
-  {
-    "objectID": "data_IMLS.html",
-    "href": "data_IMLS.html",
-    "title": "IMLS",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "IMLS",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_FHS.html",
-    "href": "data_FHS.html",
-    "title": "Framingham Heart Study (FHS)",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "Framingham Heart Study (FHS)",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_DataAxle.html",
-    "href": "data_DataAxle.html",
-    "title": "DataAxle",
-    "section": "",
-    "text": "Data Axle provides comprehensive business and consumer data that includes millions of U.S. business records, categorized by industry using enhanced NAICS and SIC codes. These data enable granular analysis of resource access and utilization at geographic resolutions as small as the Census Block. Data are updated annually and include information about site, employee size and revenue.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: 1997-2024\nGeography: Geocoded point-of-interest data\nPopulation: United States\nDocumentation:\n\nTutorial from BU Libraries: https://library.bu.edu/dataaxle\n\n\n\n\nHow to access\nReach out to bedacprp@bu.edu to request a dataset designated by: - Year - Business code (NAICS, SIC) - Zip code (optional) - State (optional) - Location or parent employee size (optional) - Location or parent sales volume code (optional) - Gender of contact or executive (optional)\n\n\nRelated Publications\n\nNori-Sarma A, Spangler KR, Wang B, Cesare N, Dukes KA, Lane KJ. Impacts of the choice of distance measurement method on estimates of access to point-based resources. J Expo Sci Environ Epidemiol. 2023 Mar;33(2):237-243. doi: 10.1038/s41370-022-00414-z. Epub 2022 Feb 10. PMID: 35145207.\n\n\n\nGetting started\n\nDownload Getting Started Guide (.pptx)"
-  },
-  {
-    "objectID": "data_CMSMedicare.html",
-    "href": "data_CMSMedicare.html",
-    "title": "CMS Medicare",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_CMSMedicare.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_CMSMedicare.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "CMS Medicare",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
     "objectID": "data_CHIAAPCD.html",
     "href": "data_CHIAAPCD.html",
     "title": "CHIA APCD",
@@ -94,97 +24,6 @@
     "objectID": "data_CHIAAPCD.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
     "href": "data_CHIAAPCD.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
     "title": "CHIA APCD",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_CDC.html",
-    "href": "data_CDC.html",
-    "title": "CDC",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_CDC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_CDC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "CDC",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_ARCH.html",
-    "href": "data_ARCH.html",
-    "title": "ARCH",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "ARCH",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_ACS.html",
-    "href": "data_ACS.html",
-    "title": "ACS",
-    "section": "",
-    "text": "The American Community Survey (ACS) is an annual, nationally representative survey that collects detailed information on residents’ demographic characteristics, housing status, education, transportation habits, employment, and more. Approximately 3.5 million residents are sampled each year. Data are organized by topic-specific tables, cover a variety of geographies (from national to Census Block Group) and offered as 1-year or 5-year estimates.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: Annual estimates available 2005 onward; 5-year estimates available 2009 onward.\nGeography: Nation, Region, Division, State, County, Census Tracts, Block Groups\nPopulation: United States\nDocumentation: https://www.census.gov/programs-surveys/acs/geography-acs/reference-materials.html\n\n\n\nHow to access\nReach out to bedacprp@bu.edu to request a dataset. Please specify years and geographies needed. We can help consult on tables needed, or investigators may select tables from the following link: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html\n\n\nGetting started\n\nHandbooks for data users: https://www.census.gov/programs-surveys/acs/library/handbooks.html\nTechnical Documentation: https://www.census.gov/programs-surveys/acs/technical-documentation.html"
-  },
-  {
-    "objectID": "data_ADRC.html",
-    "href": "data_ADRC.html",
-    "title": "ARCH",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "ARCH",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_BBRAIN.html",
-    "href": "data_BBRAIN.html",
-    "title": "BBRAIN",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_BBRAIN.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_BBRAIN.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "BBRAIN",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_CENSUS.html",
-    "href": "data_CENSUS.html",
-    "title": "Census",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_CENSUS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_CENSUS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "Census",
-    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
-    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
-  },
-  {
-    "objectID": "data_CMSMedicaid.html",
-    "href": "data_CMSMedicaid.html",
-    "title": "CMS Medicaid",
-    "section": "",
-    "text": "description"
-  },
-  {
-    "objectID": "data_CMSMedicaid.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_CMSMedicaid.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "CMS Medicaid",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
@@ -203,6 +42,48 @@
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Staff",
+    "section": "",
+    "text": "Our staff bring expertise across data science, public health, EHR systems, and advanced analytics. Email us at bedacprp@bu.edu to get started!\n\n\n\n  \n    \n    \n      Joseph Palmisano\n      Director, Data Hub\n      Joseph's team at the Biostatistics and Epidemiology Data Analytics Center (BEDAC) specializes in data management, database and web programming, and sophisticated statistical analysis in support of a wide range of research initiatives.\n    \n  \n\n\n\n\n\n  \n    \n    \n      Emily Sisson\n      Director, Data Hub\n      Emily's leadership at the Biostatistics and Epidemiology Data Analytics Center (BEDAC), involves leading diverse teams and optimizing research operations andstrategic growth.\n    \n  \n\n\n\n\n\n  \n    \n    \n      Dr. Nina Cesare\n      Assisant Director, Data Hub\n      Nina's work bridges data science and sociology, using digital and spatial data to explore social determinants of health and the methodological challenges of modern social research\n    \n  \n\n\n\n\n\n  \n    \n    \n      Dr. Chad Milando\n      Assistant Director, Data Hub\n      Chad supports faculty with data sourcing and analytic strategy. His research focuses on environmental health and spatiotemporal modeling."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "The Center for Health Data Sciences Data Hub is a university-wide consultation service designed to help faculty and staff navigate the fast-moving world of data science, machine learning, and AI. Whether you’re just getting started or exploring advanced analytic strategies, the Data Hub is your first stop for expert advice.\n\n\n\n\nWhat We Offer\nOur team of data specialists provides short, targeted consultations to help researchers:\n\nDiscover and evaluate relevant data sources.\nLearn about research environments available at BU\nProvide feedback on research design\nFacilitate collaboration across BU\n\nThese 30-minute sessions are offered at no cost and are open to faculty and staff across BU.\n\n\n\n\n\nHow It Works\n\nSubmit a Request: Email us at BEDAC Proposals\nWe’ll Schedule a Session: A data expert will meet with you virtually or in person\nGet Connected: If your request needs more follow-up, we’ll refer you to the right partner in CHDS, BEDAC, or beyond\n\nWe use a centralized request system to track usage trends and continuously improve service.\n\n\n\n\n\n\nTopics We Cover\nOur team can help with questions related to:\n\nSourcing internal and external datasets\nData licensing and permissions\nIRB and data use agreements (DUAs)\nMatching your research question to the right method or tool\nBuilding collaborations across BU\n\n\n\n\n\n\nStrategic Benefits\nThe Data Hub isn’t just about problem-solving—it’s about enabling research at BU to reach its full potential. The Hub helps:\n\nBreak down silos across schools and research centers\nStrengthen proposals by improving data and methodology plans\nSave time, letting investigators focus on analysis instead of logistics\n\n\n\n\n\nThe BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university."
+  },
+  {
+    "objectID": "platform_AllOfUs.html",
+    "href": "platform_AllOfUs.html",
+    "title": "NIH All of Us Research Program",
+    "section": "",
+    "text": "All of Us is a comprehensive diverse health database that collects comprehensive genetic, environmental, and lifestyle information from one million or more U.S. participants to advance precision medicine. The target sample includes 1 million or more US participants designed to reflect the diversity of the U.S. population. Study design focuses on groups historically underrepresented in biomedical research. There are currently over 600,000 participants enrolled who provide valuable data across several domains: surveys, electronic health records, physical measurements, wearables, genomics, and biosamples. This project emphasizes equitable research practices, collaboration and transparency across the research process.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: Initiated in 2018; current release covers 2019-2023.\nPopulation: A diverse sample of individuals, with emphasis on those historically underrepresented in biomedical research.\nGeography: United States, down to 3 digit zip code.\nUnit of analysis: Individual\nDocumentation:\n\nVisit the All of Us Data Browser: https://databrowser.researchallofus.org/\nLearn more about the All of Us Research Hub: https://www.researchallofus.org/about-the-research-hub/\n\n\n\n\nData Use Agreement\n\nResearchers at BU have access to the Controlled Tier, which includes genomic information.\nAll Research Workbench users must complete All of Us registration and training: https://www.researchallofus.org/register/\n\n\n\nCommon Use Cases\n\nPrecision medicine research integrating genomics, clinical data, and lifestyle information.\nPopulation health studies focusing on diverse groups and health disparities. Epidemiological investigations of specific diseases or conditions.\nFor more information, browse the research project directory: https://www.researchallofus.org/research-project-directory/\n\n\n\nRelated Publications\n\nExplore the All of Us Publication Directory: https://www.researchallofus.org/publication-directory/"
+  },
+  {
+    "objectID": "data_FHS.html",
+    "href": "data_FHS.html",
+    "title": "Framingham Heart Study (FHS)",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_FHS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "Framingham Heart Study (FHS)",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_ACS.html",
+    "href": "data_ACS.html",
+    "title": "ACS",
+    "section": "",
+    "text": "The American Community Survey (ACS) is an annual, nationally representative survey that collects detailed information on residents’ demographic characteristics, housing status, education, transportation habits, employment, and more. Approximately 3.5 million residents are sampled each year. Data are organized by topic-specific tables, cover a variety of geographies (from national to Census Block Group) and offered as 1-year or 5-year estimates.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: Annual estimates available 2005 onward; 5-year estimates available 2009 onward.\nGeography: Nation, Region, Division, State, County, Census Tracts, Block Groups\nPopulation: United States\nDocumentation: https://www.census.gov/programs-surveys/acs/geography-acs/reference-materials.html\n\n\n\nHow to access\nReach out to bedacprp@bu.edu to request a dataset. Please specify years and geographies needed. We can help consult on tables needed, or investigators may select tables from the following link: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html\n\n\nGetting started\n\nHandbooks for data users: https://www.census.gov/programs-surveys/acs/library/handbooks.html\nTechnical Documentation: https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
     "objectID": "data_EPIC.html",
     "href": "data_EPIC.html",
     "title": "EPIC",
@@ -213,6 +94,111 @@
     "objectID": "data_EPIC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
     "href": "data_EPIC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
     "title": "EPIC",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "platform_OptumLabs.html",
+    "href": "platform_OptumLabs.html",
+    "title": "OptumLabs",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "platform_OptumLabs.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "platform_OptumLabs.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "OptumLabs",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_MWCCS.html",
+    "href": "data_MWCCS.html",
+    "title": "MWCCS",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "MWCCS",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_CMSMedicare.html",
+    "href": "data_CMSMedicare.html",
+    "title": "CMS Medicare",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_CMSMedicare.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CMSMedicare.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "CMS Medicare",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_BBRAIN.html",
+    "href": "data_BBRAIN.html",
+    "title": "Boston Biorepository, Recruitment, and Integrative Network (BBRAIN)",
+    "section": "",
+    "text": "The Boston Biorepository, Recruitment, and Integrative Network (BBRAIN) is a national research resource created to advance the study of Gulf War Illness (GWI), a chronic multisymptom condition affecting veterans of the 1990–91 Gulf War. GWI presents with persistent symptoms such as fatigue, pain, cognitive dysfunction, gastrointestinal issues, respiratory problems, and skin abnormalities. Because diagnosis has historically relied on self-reported symptoms and lacks validated biological markers, the field has been limited by fragmented datasets, small samples, inconsistent measurement, and difficulty validating findings across studies. BBRAIN was created to address these barriers by establishing a centralized biorepository and integrated data network designed to support large-scale, harmonized, and reproducible GWI research.\n\nKeating et al. describes BBRAIN in detail, summarized below:\nBBRAIN includes: - a formal data and biospecimen access system - an online request form - a steering committee review process\nstandardized operating procedures for data sharing and sample handling\n\nData Dictionary, Metadata, Years Available\nBBRAIN places significant emphasis on data harmonization through the use of Common Data Elements (CDEs). These CDEs standardize how symptom questions, exposures, clinical assessments, and other variables are measured and recorded, enabling datasets from different studies and institutions to be combined more easily and reliably. By harmonizing these variables, BBRAIN reduces inconsistencies and enhances opportunities for replication, meta-analysis, biomarker discovery, and validation studies. This effort represents a major step forward for the GWI field, which has historically struggled with inconsistent measures and incompatible datasets.\nThe network also provides structured processes for data and biospecimen access. Researchers can apply to access BBRAIN materials through a centralized request system. Each request is reviewed by a steering committee to ensure scientific rigor and appropriate use of resources. The infrastructure includes governance structures, documentation standards, protocols for storing and transferring biospecimens, and processes for monitoring scientific output. The article notes that the biorepository and dataset merging infrastructure were already established at the time of publication, and retrospective datasets had been successfully combined.\n\n\nHow to access\nReach out to bedacprp@bu.edu"
+  },
+  {
+    "objectID": "data_CENSUS.html",
+    "href": "data_CENSUS.html",
+    "title": "Census",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_CENSUS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CENSUS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "Census",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_infrastructure.html",
+    "href": "data_infrastructure.html",
+    "title": "Research Environments",
+    "section": "",
+    "text": "This table summarizes key computing and data hosting environments available to BU-affiliated researchers working with sensitive, large-scale, or high-complexity data.\n\n\n\n\n\n\n\n\n\nResource\nDescription\nKey Features\nLimitations\n\n\n\n\nBU Shared Computing Cluster (SCC)\nHigh-performance computing (HPC) system supporting large-scale data processing and modeling\nThousands of CPU cores, GPU nodes, parallel computing, genomics/claims analysis support\nSteep learning curve for non-technical users; some limitations on sensitive data storage\n\n\nBMC CDW-R (BMC EHR)\nDe-identified and limited datasets from BMC’s Epic EHR, optimized for research with underserved populations\nClinical, demographic, encounter-level data; equity-focused use cases\nTypical EHR issues (e.g., missing data, variable coding); may not generalize beyond BMC patients\n\n\nBEDAC Secure Research Cloud (SRC)\nHIPAA-compliant, access-controlled cloud for working with sensitive health data\nSecure environment for EHR/claims data; tools include R, SAS, Python, SQL\nRequires IRB & DUA approvals; onboarding time; limited to approved users"
+  },
+  {
+    "objectID": "data_ADRC.html",
+    "href": "data_ADRC.html",
+    "title": "ARCH",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ADRC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "ARCH",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_Marketscan.html",
+    "href": "data_Marketscan.html",
+    "title": "MarketScan",
+    "section": "",
+    "text": "MarketScan is a proprietary claims dataset that provides longitudinal patient-level data on healthcare utilization, expenditures, and outcomes. It includes data from commercial insurance plans, Medicare, and Medicaid populations across the United States. The dataset is widely used in health economics, pharmacoepidemiology, and outcomes research.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: 2006-2023\nPopulation: Insured individuals in the U.S. covered by employer-sponsored private health insurance plans, including active employees, early retirees, COBRA continuers, and dependents.\n\nGeography: State-level information across U.S.\nUnit of analysis: Medical claim.\nDocumentation:\n\nDownload Data Dictionary (PDF)\nDownload User Guide (PDF)\n\n\n\n\nData Use Agreement (DUA) and Abstract\nAccess to MarketScan data is governed by a Data Use Agreement (DUA) between Truven Health Analytics and Boston University. Please contact the Data Steward (email below) for more information.\nSample abstract for DUA request: &gt; This project aims to examine the impact of medication adherence on hospitalization rates among patients with chronic conditions using MarketScan Commercial Claims and Encounters data from 2015–2021.\n\n\nCommon Use Cases\n\nHealth services research analyzing healthcare utilization, costs, and outcomes.\nEpidemiology and disease burden studies in privately insured populations.\nOutcomes research involving chronic conditions, surgical procedures, and preventive services\n\n\n\nRelated Publications\n\nPodolsky MI, Raquib R, Shafer PR, Hempstead K, Ellis RP, Stokes AC. Factors Associated With Semaglutide Initiation Among Adults With Obesity. JAMA Netw Open. 2025 Jan 2;8(1):e2455222. doi: 10.1001/jamanetworkopen.2024.55222. PMID: 39836425; PMCID: PMC11751746.\n\n\n\nCode Snippets to Get Started\n# Load claims data\nclaims &lt;- fread(\"marketscan_claims_2021.csv\")\n\n# Summary by diagnosis\nclaims[, .N, by = .(diagnosis_code)][order(-N)]\n\n# Join with enrollment data\nmerged &lt;- merge(claims, enrollment, by = \"patient_id\")"
+  },
+  {
+    "objectID": "data_USDA.html",
+    "href": "data_USDA.html",
+    "title": "USDA",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_USDA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_USDA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "USDA",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
@@ -231,37 +217,51 @@
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
-    "objectID": "data_infrastructure.html",
-    "href": "data_infrastructure.html",
-    "title": "Research Environments",
-    "section": "",
-    "text": "This table summarizes key computing and data hosting environments available to BU-affiliated researchers working with sensitive, large-scale, or high-complexity data.\n\n\n\n\n\n\n\n\n\nResource\nDescription\nKey Features\nLimitations\n\n\n\n\nBU Shared Computing Cluster (SCC)\nHigh-performance computing (HPC) system supporting large-scale data processing and modeling\nThousands of CPU cores, GPU nodes, parallel computing, genomics/claims analysis support\nSteep learning curve for non-technical users; some limitations on sensitive data storage\n\n\nBMC CDW-R (BMC EHR)\nDe-identified and limited datasets from BMC’s Epic EHR, optimized for research with underserved populations\nClinical, demographic, encounter-level data; equity-focused use cases\nTypical EHR issues (e.g., missing data, variable coding); may not generalize beyond BMC patients\n\n\nBEDAC Secure Research Cloud (SRC)\nHIPAA-compliant, access-controlled cloud for working with sensitive health data\nSecure environment for EHR/claims data; tools include R, SAS, Python, SQL\nRequires IRB & DUA approvals; onboarding time; limited to approved users"
-  },
-  {
-    "objectID": "data_MWCCS.html",
-    "href": "data_MWCCS.html",
-    "title": "MWCCS",
+    "objectID": "data_CDC.html",
+    "href": "data_CDC.html",
+    "title": "CDC",
     "section": "",
     "text": "description"
   },
   {
-    "objectID": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_MWCCS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "MWCCS",
+    "objectID": "data_CDC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CDC.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "CDC",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
-    "objectID": "data_USDA.html",
-    "href": "data_USDA.html",
-    "title": "USDA",
+    "objectID": "data_IMLS.html",
+    "href": "data_IMLS.html",
+    "title": "IMLS",
     "section": "",
     "text": "description"
   },
   {
-    "objectID": "data_USDA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "data_USDA.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "USDA",
+    "objectID": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_IMLS.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "IMLS",
+    "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
+    "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
+  },
+  {
+    "objectID": "data_DataAxle.html",
+    "href": "data_DataAxle.html",
+    "title": "DataAxle",
+    "section": "",
+    "text": "Data Axle provides comprehensive business and consumer data that includes millions of U.S. business records, categorized by industry using enhanced NAICS and SIC codes. These data enable granular analysis of resource access and utilization at geographic resolutions as small as the Census Block. Data are updated annually and include information about site, employee size and revenue.\n\n\nData Dictionary, Metadata, Years Available\n\nYears Available: 1997-2024\nGeography: Geocoded point-of-interest data\nPopulation: United States\nDocumentation:\n\nTutorial from BU Libraries: https://library.bu.edu/dataaxle\n\n\n\n\nHow to access\nReach out to bedacprp@bu.edu to request a dataset designated by: - Year - Business code (NAICS, SIC) - Zip code (optional) - State (optional) - Location or parent employee size (optional) - Location or parent sales volume code (optional) - Gender of contact or executive (optional)\n\n\nRelated Publications\n\nNori-Sarma A, Spangler KR, Wang B, Cesare N, Dukes KA, Lane KJ. Impacts of the choice of distance measurement method on estimates of access to point-based resources. J Expo Sci Environ Epidemiol. 2023 Mar;33(2):237-243. doi: 10.1038/s41370-022-00414-z. Epub 2022 Feb 10. PMID: 35145207.\n\n\n\nGetting started\n\nDownload Getting Started Guide (.pptx)"
+  },
+  {
+    "objectID": "data_ARCH.html",
+    "href": "data_ARCH.html",
+    "title": "ARCH",
+    "section": "",
+    "text": "description"
+  },
+  {
+    "objectID": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_ARCH.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "ARCH",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
@@ -280,16 +280,16 @@
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   },
   {
-    "objectID": "platform_OptumLabs.html",
-    "href": "platform_OptumLabs.html",
-    "title": "OptumLabs",
+    "objectID": "data_CMSMedicaid.html",
+    "href": "data_CMSMedicaid.html",
+    "title": "CMS Medicaid",
     "section": "",
     "text": "description"
   },
   {
-    "objectID": "platform_OptumLabs.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "href": "platform_OptumLabs.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
-    "title": "OptumLabs",
+    "objectID": "data_CMSMedicaid.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "href": "data_CMSMedicaid.html#reach-out-to-bedacprpbu.edu-to-request-a-dataset-designated-by",
+    "title": "CMS Medicaid",
     "section": "Reach out to bedacprp@bu.edu to request a dataset designated by:",
     "text": "Reach out to bedacprp@bu.edu to request a dataset designated by:\n\nRelated Publications\n\n\n\n\n\nGetting started\n\nDownload Getting Started Guide"
   }
