@@ -3,7 +3,11 @@ title: "Framingham Heart Study (FHS)"
 title-block-banner: banner2.png
 ---
 
-_description_
+The Framingham Heart Study is one of the most influential and longest-running epidemiologic cohort studies in the world. Established by the National Heart, Lung, and Blood Institute (NHLBI) in 1948 in Framingham, Massachusetts, the study follows multiple generations of participants to understand the determinants of cardiovascular disease and related chronic conditions. Over time, FHS has expanded to include the Original Cohort, Offspring Cohort, and Third Generation Cohort, along with focused ancillary studies.
+
+FHS collects exceptionally rich, longitudinal data on participants, including repeated clinical examinations, lifestyle and behavioral measures, medication use, imaging, genomics, biomarkers, and detailed cardiovascular outcomes. Its multi-decade follow-up structure makes it uniquely suited for studying disease risk trajectories, early-life predictors of later-life health, gene–environment interactions, and the natural history of cardiometabolic conditions.
+
+The study has played a foundational role in identifying major cardiovascular risk factors—such as hypertension, hyperlipidemia, smoking, diabetes, and obesity—and continues to serve as a critical scientific resource for contemporary research on aging, cardiovascular health, neurocognitive decline, and precision medicine. Data access is available to approved researchers through controlled mechanisms managed by NHLBI.
 
 ---
 
@@ -17,14 +21,11 @@ _description_
 
 ### How to access
 
-Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
--
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) 
+
 
 ### Related Publications
 
 -
 
 
-### Getting started
-
-- [Download Getting Started Guide]()

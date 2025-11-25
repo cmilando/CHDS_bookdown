@@ -1,30 +1,38 @@
 ---
-title: "CDC"
+title: "CDC Platforms (WONDER, mRFEI, PLACES, and related systems)"
 title-block-banner: banner2.png
 ---
 
-_description_
+CDC Platforms (WONDER, mRFEI, PLACES, and related systems)
 
----
+The Centers for Disease Control and Prevention (CDC) maintains a suite of publicly accessible data platforms that provide authoritative, policy-relevant health, environmental, and demographic information for population health research and surveillance. These platforms offer standardized, high-quality datasets covering topics such as mortality, chronic disease, health behaviors, environmental exposures, healthcare resources, and social determinants of health. Key systems include:
 
-### Data Dictionary, Metadata, Years Available { .unnumbered}
+CDC WONDER (Wide-ranging Online Data for Epidemiologic Research)
 
-- **Years Available**: 
-- **Geography**: 
-- **Population**: 
-- **Documentation**:
-  - Tutorial from BU Libraries: 
+A flagship query system providing access to numerous national datasets, including mortality records, natality data, cancer registries, infectious disease reports, population estimates, environmental exposures, and census-linked indicators. WONDER supports custom tabulations, age adjustment, stratification, and export, making it widely used for descriptive epidemiology and trend analyses.
 
-### How to access
+mRFEI (Modified Retail Food Environment Index)
+A census-tract–level measure of the local retail food environment, summarizing the proportion of food retailers considered "healthy" (e.g., supermarkets, grocery stores) relative to all food retailers. mRFEI is commonly used in studies examining nutrition environments, food access, urban planning, and disparities in diet-related health outcomes.
 
-Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
-- 
+PLACES (Population Level Analysis and Community Estimates)
+A collaboration between CDC, RWJF, and the Census Bureau that provides model-based estimates of chronic disease, risk factors, and preventive health measures for all U.S. counties, census tracts, and ZIP Code Tabulation Areas. PLACES covers metrics such as obesity, diabetes, high blood pressure, physical inactivity, smoking, mental health, and preventive screenings—making it valuable for small-area health surveillance and community health assessment.
 
-### Related Publications
+Other related CDC open-data platforms
+Including systems such as the Behavioral Risk Factor Surveillance System (BRFSS) online tools, the National Environmental Public Health Tracking Network, the Social Vulnerability Index (SVI), and the 500 Cities/PLACES predecessor datasets. These platforms collectively offer multiscale, geographically resolved indicators on environment, health behaviors, chronic disease outcomes, and vulnerability.
 
-- 
+Use Cases and Strengths
 
+CDC platforms are widely used for:
 
-### Getting started
+Population health monitoring and small-area surveillance
 
-- [Download Getting Started Guide]()
+Environmental health and climate-health research
+
+Social determinants of health analyses
+
+Policy evaluation and program planning
+
+Epidemiologic trend and disparity analyses
+
+Their advantages include national coverage, consistent methodology, annual updates for many indicators, and easy access for researchers, policymakers, and community organizations.
+
