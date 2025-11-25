@@ -3,7 +3,7 @@ title: "ADVANCE / OCHIN"
 title-block-banner: banner2.png
 ---
 
-From [advancecollaborative.org/data-warehouse/](https://advancecollaborative.org/data-warehouse/):
+From [advancecollaborative.org/data-warehouse](https://advancecollaborative.org/data-warehouse/):
 
 The ADVANCE Data Warehouse (DW) is the nation’s largest and most comprehensive database on community-based health care and outcomes, representing over 14 million patients nationwide. As the single largest source of primary care data within PCORnet®, ADVANCE combines electronic health records (EHR) using the PCORnet® Common Data Model, a standardized, research-ready format designed for scalable, multi-site studies. This shared Common Data Model makes varied types of data, including demographics, vital signs, labs, clinical observations, diagnoses, and more, available for research across a diverse and expansive set of participating sites.
 
