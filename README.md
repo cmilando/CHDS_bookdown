@@ -1,6 +1,10 @@
 # CHDS_bookdown
 A bookdown for data at the CHDS
 
+sites:
+* staging site: https://chadmilando.com/CHDS_bookdown/
+* production site: https://sites.bu.edu/chds-data-hub/
+* google analytics: [link](https://analytics.google.com/analytics/web/?authuser=1&utm_campaign=SuiteHeader&utm_source=UniversalPicker&utm_medium=getStarted#/a345740868p512530820/reports/intelligenthome?params=_u..nav%3Dmaui&collectionId=business-objectives)
 
 # Quarto rendering refresher
 

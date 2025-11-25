@@ -60,7 +60,7 @@ while others require special credentials (<span style="
 | [**VA Informatics & Computing Infrastructure (VINCI)**](platform_VINCI.qmd) <span style="display: inline-block;background:#fde7e9;   /* very light red/pink */color:#d63333;        /* strong red */padding: 2px 6px;border-radius: 3px;font-size: 0.75em;">private</span> | Administrative/claims | Secure VA-managed environment offering access to national EHR data for 9M+ veterans, including structured/unstructured data, pharmacy, imaging, and claims. Used in chronic disease and aging research. |
 
 
-: Data Sources {tbl-colwidths="[30, 5, 65]" .hover}
+: Data Sources {tbl-colwidths="[30, 1, 69]"}
 
 <br>
 <br>

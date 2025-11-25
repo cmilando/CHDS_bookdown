@@ -64,7 +64,7 @@ all_rows <- do.call(c, all_rows_l)
 
 xtail <-'
 
-: Data Sources {tbl-colwidths="[30, 5, 65]"}
+: Data Sources {tbl-colwidths="[30, 1, 69]"}
 
 <br>
 <br>
