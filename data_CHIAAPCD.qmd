@@ -2,17 +2,25 @@
 title: "CHIA APCD"
 title-block-banner: banner2.png
 ---
-_description_
+The Massachusetts All-Payer Claims Database is the most comprehensive source of health claims data from public and private payers providing insurance to Massachusetts residents and employees. The claims data sets sent to CHIA cover a number of services, including: medical, pharmacy, dental, vision, behavioral health and specialty services.
 
 ---
 
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
-- **Years Available**: 
-- **Geography**: 
-- **Population**: 
-- **Documentation**:
-  - Tutorial from BU Libraries: 
+- **Years Available**: 2009-2023
+- **Geography**: Massachusetts state-level database
+- **Population**: Massachusetts residents and employees
+- **Documentation**: https://www.chiamass.gov/ma-apcd/
+- **Common Use Cases**: 
+  - Health plans, researchers, and others use the APCD to analyze and report on population health management, quality outcomes, costs and pricing variations
+- **Strengths**:
+  - It is a large, comprehensive, longitudinal all-payer claims resource with robust linkage and cleaning, ideal for policy, utilization, and cost analyses in Massachusetts
+- **Limitations**:
+  - Lack uninsured individuals
+  - Lack comprehensive race/ethnicity data
+- **Access Notes**:
+  - MA APCD is a restricted dataset and the access requires a formal application to CHIA
 
 ### How to access
 
