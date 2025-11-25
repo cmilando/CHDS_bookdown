@@ -1,30 +1,27 @@
 ---
-title: "BBRAIN"
+title: "Boston Biorepository, Recruitment, and Integrative Network (BBRAIN)"
 title-block-banner: banner2.png
 ---
 
-_description_
+The Boston Biorepository, Recruitment, and Integrative Network (BBRAIN) is a national research resource created to advance the study of Gulf War Illness (GWI), a chronic multisymptom condition affecting veterans of the 1990–91 Gulf War. GWI presents with persistent symptoms such as fatigue, pain, cognitive dysfunction, gastrointestinal issues, respiratory problems, and skin abnormalities. Because diagnosis has historically relied on self-reported symptoms and lacks validated biological markers, the field has been limited by fragmented datasets, small samples, inconsistent measurement, and difficulty validating findings across studies. BBRAIN was created to address these barriers by establishing a centralized biorepository and integrated data network designed to support large-scale, harmonized, and reproducible GWI research.
 
 ---
 
+[Keating et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC9643044/) describes BBRAIN in detail, summarized below:
+
+BBRAIN includes:
+  - a formal data and biospecimen access system
+  - an online request form
+  - a steering committee review process
+
+standardized operating procedures for data sharing and sample handling
+
 ### Data Dictionary, Metadata, Years Available { .unnumbered}
 
-- **Years Available**:
-- **Geography**:
-- **Population**:
-- **Documentation**:
-- Tutorial from BU Libraries:
+BBRAIN places significant emphasis on data harmonization through the use of Common Data Elements (CDEs). These CDEs standardize how symptom questions, exposures, clinical assessments, and other variables are measured and recorded, enabling datasets from different studies and institutions to be combined more easily and reliably. By harmonizing these variables, BBRAIN reduces inconsistencies and enhances opportunities for replication, meta-analysis, biomarker discovery, and validation studies. This effort represents a major step forward for the GWI field, which has historically struggled with inconsistent measures and incompatible datasets.
+
+The network also provides structured processes for data and biospecimen access. Researchers can apply to access BBRAIN materials through a centralized request system. Each request is reviewed by a steering committee to ensure scientific rigor and appropriate use of resources. The infrastructure includes governance structures, documentation standards, protocols for storing and transferring biospecimens, and processes for monitoring scientific output. The article notes that the biorepository and dataset merging infrastructure were already established at the time of publication, and retrospective datasets had been successfully combined.
 
 ### How to access
 
-Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu) to request a dataset designated by:
--
-
-### Related Publications
-
--
-
-
-### Getting started
-
-- [Download Getting Started Guide]()
+Reach out to [bedacprp@bu.edu](mailto:bedacprp@bu.edu)
