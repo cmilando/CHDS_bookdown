@@ -1,9 +1,11 @@
 ---
-title: "URBAN ARCH"
+title: "Uganda Russia Boston Alcohol Network for Alcohol Research Collaboration on HIV/AIDS (URBAN ARCH)"
 title-block-banner: banner2.png
 ---
 
-URBAN ARCH maintains a [data repository[(https://sites.bu.edu/urbanarch/resources/data-sample-repository/) that provides detailed information on all available datasets. The full catalog is accessible through the project’s website.
+The International Uganda Russia Boston Alcohol Network for Alcohol Research Collaboration on HIV/AIDS (URBAN ARCH) Center will generate new generalizable knowledge about the complex relationship between TB, HIV, and alcohol use in order to accelerate the future development of interventions that can reduce alcohol’s impact on TB-related morbidity and mortality among people with HIV.
+
+URBAN ARCH maintains a [data repository](https://sites.bu.edu/urbanarch/resources/data-sample-repository/) that provides detailed information on all available datasets. The full catalog is accessible through the project’s website.
 
 Years Available
 2012–2022
