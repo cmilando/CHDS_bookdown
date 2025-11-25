@@ -5,7 +5,7 @@ data_sources <- read_xlsx("data_sources.xlsx")
 data_sources <- data_sources %>% arrange(Resource)
 
 header <-
-  '---
+'---
 title: "Data Sources"
 title-block-banner: banner2.png
 ---
