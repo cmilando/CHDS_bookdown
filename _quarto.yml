@@ -9,7 +9,7 @@ website:
   repo-url: https://github.com/cmilando/CHDS_bookdown
   repo-branch: main
   repo-actions: [edit]
-  page-footer: CHDS Data Hub - [https://sites.bu.edu/CHDS-data-hub/](https://sites.bu.edu/CHDS-data-hub/){target="_blank"}
+  page-footer: CHDS Data Hub - [https://sites.bu.edu/chds-data-hub/](https://sites.bu.edu/CHDS-data-hub/){target="_blank"}
 
   navbar:
     left:
