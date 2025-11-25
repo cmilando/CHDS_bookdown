@@ -1,5 +1,5 @@
 ---
-title: "ARCH"
+title: "Alzheimer’s Disease Research Centers (ADRCs)"
 title-block-banner: banner2.png
 ---
 
