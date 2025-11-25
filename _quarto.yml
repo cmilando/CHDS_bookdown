@@ -16,9 +16,9 @@ website:
       - text: Home
         file: index.qmd
       - text: Data Sources
-        file: src_coming_soon.qmd
+        file: data_sources.qmd
       - text: Research Environments
-        file: env_coming_soon.qmd
+        file: data_infrastructure.qmd
 
 format:
   html:
