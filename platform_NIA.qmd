@@ -1,5 +1,78 @@
 ---
-title: "NIA"
+title: "Acumen CMS Data Linkage (NIA)"
 title-block-banner: banner2.png
 ---
 
+From [https://www.nia.nih.gov/research/dbsr/nia-data-linkage-program-linkage](https://www.nia.nih.gov/research/dbsr/nia-data-linkage-program-linkage) and [https://www.nia.nih.gov/research/dbsr/nia-data-linkage-program-linkage/available-data](https://www.nia.nih.gov/research/dbsr/nia-data-linkage-program-linkage/available-data)
+
+This dataset links Medicare claims to several major NIA-funded longitudinal studies of aging, including the Health and Retirement Study (HRS) and the National Health and Aging Trends Study (NHATS). By combining detailed survey-based measures with comprehensive Medicare administrative data, it enables robust longitudinal analyses of older adults’ health trajectories, healthcare utilization, spending patterns, and clinical outcomes.
+
+The data are curated and managed by Acumen LLC, which maintains high-quality, research-ready linked files across cohorts. These linked datasets support a wide range of aging, health services, and policy research applications, particularly those requiring validated clinical outcomes, multi-year follow-up, and rich person-level covariates.
+
+CMS data available in LINKAGE
+The LINKAGE Program offers the following CMS data:
+
+Raw CMS claims data:
+
+Longitudinal datasets that fully track beneficiaries across time.
+File layout alignments enabled to streamline programming.
+Granular health care service details that allow for robust analyses.
+CMS data sets and years of data available, include:
+
+Medicare Parts A and B: 1991 - 2024
+Medicare Part C: 2015 - 2023
+Medicare Part D: 2006 - 2024
+Medicare Assessment Data: 1999- 2023
+Medicare Enrollment Data: 1991 – 2024
+Medicaid Data: 1999 – 2023
+Learn about the CMS data available by downloading the NIA CMS Data Dictionary (Excel, 600K).
+
+LINKAGE Medicare and Medicaid Summary Files (LMMSF):
+
+Comprehensive medical and health histories summarized at the beneficiary-level.
+Constructed in a wide-format to see a beneficiary’s healthcare journey in a file with one line per beneficiary with columns for years available.
+LLMSF files are available for the following NIA-funded Studies in the LINKAGE enclave:
+* Health and Retirement Study (HRS)
+* National Health and Aging Trends Study (NHATS)
+* Rush Alzheimer's Disease Center (RADC)
+* Understanding America Study (UAS)
+
+The LMMSF can be requested as a separate file through the NIA DUA process in the LINKAGE DOCS Portal.
+
+
+Below you can view NIA-funded studies that are currently linked to CMS data in the NIA Data LINKAGE Program. 
+
+Note: Researchers seeking a linked-dataset from one of the following studies, must contact the Study first to seek approval through each Study’s DUA process before seeking access to the LINKAGE Program.
+
+Application of Economics & Social Psychology to Improve Opioid Prescribing Safety (AESOPS) Trial: The AESOPS trial’s objectives are to discourage unnecessary opioid prescribing through the application of "behavioral insights"-empirically-tested social and psychological interventions that affect choice.
+
+Advanced Cognitive Training for Independent and Vital Elderly (ACTIVE): Established in 1998, ACTIVE is the largest study on cognitive training. The ACTIVE study proves that healthy older adults can make significant cognitive improvements with appropriate cognitive training and practice.
+
+Boston Early Adversity & Mortality Study (BEAMS): BEAMS brings together diverse data to provide a comprehensive picture on the early life conditions of persons who were born in the late 19th and early 20th century and have been studied closely for most of their lives.
+
+Health and Retirement Study (HRS): Starting in 1992, HRS is a longitudinal panel study that explores the changes in labor force participation and the health transitions that individuals undergo toward the end of their work lives and in the years that follow. Visit HRS’ site for instructions on how to access HRS data.
+
+LONG LIFE Family Study (LLFS): Established in 2005, LLFS is an international collaborative study of the genetics and familial components of exceptional survival, longevity, and healthy aging.
+
+Long-Term Care Data (LTC) Cooperative: The LTC Data Cooperative seeks “to improve the quality of care within post-acute and long-term care facilities by compiling the most comprehensive data on post-acute and long-term care residents nationwide – and to translate these data into accessible and actionable information designed to help clinicians, managers and policy makers improve care”.
+
+Long-term Effects of a Community-based Volunteer Trial on Lifestyle Activity and Risk for Alzheimer's Disease (ExpCorps): ExCorps seeks to determine whether increased social, physical and cognitive engagement leads to long-term lower risk for Alzheimer's disease, reductions in healthcare expenditures, maintained functional independence, improved quality of life, less disability and lower mortality.
+
+Midlife in the United States (MIDUS): Established in 1995, the MIDUS study "was conceived by scientists from diverse fields who were interested in how physical and mental health changes across the decades of adult life, for whom, and why."
+
+National Dementia Workforce Study (NDWS): Established in 2023, NDWS fields the first large, nationally representative surveys of the professional dementia care workforce in the United States, including community clinicians, and nursing home, assisted living, and home care staff and administrators.
+
+National Health & Aging Trends Study (NHATS): Starting in 2011, NHATS fosters research to guide efforts to reduce disability, maximize health and independent functioning, and enhance quality of life at older age.
+
+National Long Term Care Survey (NLTCS): Beginning in 1982, NLTCS is a longitudinal survey designed to study changes in the health and functional status of older Americans. It also tracks health expenditures, Medicare service use, and more.
+
+Optimizing Electronic Health Record Prompts with Behavioral Economics to Improve (NUDGE-EHR): Established in 2020, NUDGE-EHR is a 16-arm adaptive randomized pragmatic trial to evaluate whether designing electronic health record (EHR)-based tools using behavioral science principles reduces inappropriate prescribing and clinical outcomes in older adults.
+
+Panel Study of Income Dynamics (PSID): Beginning in 1968, PSID is the longest running longitudinal household survey that measures economic and social well-being and has allowed researchers and policy analysts to investigate the dynamism inherent in social and behavioral processes.
+
+* Rush Alzheimer's Disease Center (RADC): Established in 1997, RADC is committed to discovering better ways to diagnose, treat, and prevent Alzheimer's and other dementias.
+Understanding America Study (UAS): Founded in 2014, UAS has created an in-depth portrayal of the people in the United States including their cognitive abilities, financial views, retirement planning, and well-being.
+
+* Understanding Cohort Effects on Stroke, VCID, and Cognition After Major Epidemiologic Transitions (Formerly: The REasons for Geographic And Racial Difference in Stroke (REGARDS) study): Started in 2003, REGARDS is an ongoing, national cohort study that has followed its participants to understand why Southerners and Black Americans have higher rates of stroke and related diseases that affect brain health.
+
+* Wisconsin Longitudinal Study (WLS): Established in 1957, WLS is a long-term study that collects data on family functioning, intergenerational transfers, intergenerational relationships, life course, morbidity, mortality, physical health, mental health, and well-being.
