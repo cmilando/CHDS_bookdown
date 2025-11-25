@@ -4,12 +4,12 @@ project:
 
 website:
   google-analytics: G-YRV1CTB1QL
-  title: Data Hub
+  title: DataHub
   site-url: https://sites.bu.edu/CHDS-data-hub/
   repo-url: https://github.com/cmilando/CHDS_bookdown
   repo-branch: main
   repo-actions: [edit]
-  page-footer: CHDS Data Hub - [https://sites.bu.edu/chds-data-hub/](https://sites.bu.edu/CHDS-data-hub/){target="_blank"}
+  page-footer: CHDS DataHub - [https://sites.bu.edu/chds-data-hub/](https://sites.bu.edu/CHDS-data-hub/){target="_blank"}
 
   navbar:
     left:

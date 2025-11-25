@@ -4,7 +4,7 @@ title-block-banner: banner2.png
 layout: "columns"
 ---
 
-The Center for Health Data Sciences **Data Hub** is a university-wide collaborataive resource designed to help faculty and staff navigate the fast-moving world of **data science, machine learning, and AI**. Whether you're just getting started or exploring advanced analytic strategies, the Data Hub is your **first stop for expert advice**.
+The Center for Health Data Sciences **DataHub** is a university-wide collaborative resource designed to help faculty and staff navigate the fast-moving world of **data science, machine learning, and AI**. Whether you're just getting started or exploring advanced analytic strategies, the DataHub is your **first stop for expert advice**.
 
 ---
 :::: {.columns}
@@ -60,7 +60,7 @@ Our team can help with questions related to:
 
 ### Strategic Benefits
 
-The Data Hub enables health research at BU to reach its full potential. The Hub helps:
+The DataHub enables health research at BU to reach its full potential. The Hub helps:
 
 - **Break down silos** across schools and research centers
 - **Strengthen proposals** by improving data and methodology plans
@@ -68,5 +68,5 @@ The Data Hub enables health research at BU to reach its full potential. The Hub 
 :::
 ::::
 
-> _The BU Data Hub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university._
+> _The BU DataHub is powered by CHDS and BEDAC at the BU School of Public Health, with support from research and IT partners across the university._
 

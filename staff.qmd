@@ -15,7 +15,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
     <img src="Joseph-Palmisano.jpg" class="card-img-top" alt="Joseph Palmisano">
     <div class="card-body">
       <h5 class="card-title">Joseph Palmisano</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Director, Data Hub</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Director, DataHub</h6>
       <p class="card-text">Joseph's team at the Biostatistics and Epidemiology Data Analytics Center (BEDAC) specializes in data management, database and web programming, and sophisticated statistical analysis in support of a wide range of research initiatives.</p>
     </div>
   </div>
@@ -33,7 +33,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
     <img src="Emily-Sisson.png" class="card-img-top" alt="Emily Sisson">
     <div class="card-body">
       <h5 class="card-title">Emily Sisson</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Director, Data Hub</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Director, DataHub</h6>
       <p class="card-text">Emily's leadership at the Biostatistics and Epidemiology Data Analytics Center (BEDAC), involves leading diverse teams and optimizing research operations andstrategic growth.</p>
     </div>
   </div>
@@ -52,7 +52,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
     <img src="Nina-Cesare.jpg" class="card-img-top" alt="Dr. Nina Cesare">
     <div class="card-body">
       <h5 class="card-title">Dr. Nina Cesare</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Assisant Director, Data Hub</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Assisant Director, DataHub</h6>
       <p class="card-text">Nina's work bridges data science and sociology, using digital and spatial data to explore social determinants of health and the methodological challenges of modern social research</p>
     </div>
   </div>
@@ -70,7 +70,7 @@ Our staff bring expertise across data science, public health, EHR systems, and a
     <img src="Chad-Milando.jpg" class="card-img-top" alt="Dr. Chad Milando">
     <div class="card-body">
       <h5 class="card-title">Dr. Chad Milando</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Assistant Director, Data Hub</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Assistant Director, DataHub</h6>
       <p class="card-text">Chad supports faculty with data sourcing and analytic strategy. His research focuses on environmental health and spatiotemporal modeling.</p>
     </div>
   </div>
