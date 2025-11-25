@@ -1,9 +1,11 @@
 ---
-title: "ARCH"
+title: "URBAN ARCH (Uganda Russia Boston Alcohol Network for Alcohol Research Collaboration on HIV/AIDS)"
 title-block-banner: banner2.png
 ---
 
 URBAN ARCH Data Overview
+
+URBAN ARCH: Uganda Russia Boston Alcohol Network for Alcohol Research Collaboration on HIV/AIDS
 
 URBAN ARCH maintains a [data repository[(https://sites.bu.edu/urbanarch/resources/data-sample-repository/) that provides detailed information on all available datasets. The full catalog is accessible through the project’s website.
 
